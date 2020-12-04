@@ -1,115 +1,18 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+---
 
-  <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Alexander's Resume</title>
-  </head>
 
-  <body>
-    <div id="header">
-      <h1>Александр</h1>
-      <h3>Software engeneer</h3>
-      <p>
-        <a href="mailto:konotop999@gmail.com">konotop999@gmail.com</a>,
-        <a href="https://github.com/landrail8">github.com/landrail8</a>
-      </p>
-    </div>
+{% include career-profile.html %}
 
-    <div id="main">
-      <p>
-        Увлекаюсь программированием cо средней школы (basic, pascal). Трудовой путь начал с разработки на платформе 1С. Имею опыт создания и поддержки web-сайтов под управлением CMS WordPress и Битрикс. После курсов на Хекслете начал работу веб-разработчиком. Пишу на JS (ES6), люблю функциональное программирование. Умею работать с SQL, HTTP, Git, NPM, Travis, CodeClimate и Atom. Пишу тесты.
-      </p>
-      <p>
-        Опыт реализации проектов на react, webcomponents (polymer).
-      </p>
-      <p>
-        Готов к удаленной работе и релокации.
-      </p>
+{% unless site.data.data.sidebar.education %}
+  {% include education.html %}
+{% endunless %}
 
-      <div class="main_section">
-        <h2>Опыт работы</h2>
+{% include experiences.html %}
 
-        <div class="main_section_item">
-          <h3>Комсомольская правда</h3>
-          <p>Software Developer <i>2017 — н.в.</i></p>
-          <ul>
-            <li>Разработка и поддержка высоконагруженного новостного портала kp.ru</li>
-            <li>Реализация проектов для внешних и внутренних заказчиков в команде разработчиков</li>
-            <li>Стек разработки: JS, git, react, redux, saga, Jira, nodeJS, webpack</li>
-          </ul>
-        </div>
-        
-        <div class="main_section_item">
-          <h3>ПрофФинансКонсалтинг</h3>
-          <p>Software Developer <i>2013 — 2017</i></p>
-          <ul>
-            <li>Разработка и сопровождение web-сайтов под управлением CMS Битрикс, WordPress</li>
-            <li>Построение и настройка систем учета (фармацевтика, электроэнергетика, нефтедобыча, ВЭД, турбизнес)</li>
-          </ul>
-        </div>
+{% include projects.html %}
 
-        <div class="main_section_item">
-          <h3>ЭкоАудитКонсалтинг</h3>
-          <p>Программист 1C <i>2008 — 2013</i></p>
-          <ul>
-            <li>Разработка комплекса управления объектами коммерческой недвижимости</li>
-            <li>Поддержка регламентированного и управленческого учета</li>
-          </ul>
-        </div>
+{% include publications.html %}
 
-        <div class="main_section_item">
-          <h3>Столичные аптеки</h3>
-          <p>Программист 1C <i>2006 — 2008</i></p>
-          <ul>
-            <li>Организация учета в фармацевтическом холдинге</li>
-            <li>Обмен с внешними и внутренними системами баз данных</li>
-          </ul>
-        </div>
-
-        <h3>Ю-Софт</h3>
-        <p>Программист 1C <i>2004 — 2006</i></p>
-        <ul>
-          <li>Разработка конфигураций на платформе 1С 8.х</li>
-          <li>Сертификация 1С:Специалист</li>
-        </ul>
-      </div>
-      </div>
-
-      <div class="main_section">
-        <h2>Образование</h2>
-
-        <div class="main_section_item">
-          <h3>Московский Государственный Университет им. М.В. Ломоносова (МГУ)</h3>
-          <p>Географический факультет, <i>2005</i></p>
-        </div>
-
-        <div class="main_section_item">
-          <h3>Хекслет</h3>
-          <p>Курсы по программированию, JS Backend/Frontend, <i>2016 — 2018</i></p>
-        </div>
-      </div>
-
-      <div class="main_section">
-        <h2>Другие навыки и увлечения</h2>
-
-        <div class="main_section_item">
-          <ul>
-            <li>Изучение нового</li>
-            <li>Туризм и путешествия</li>
-            <li>Котики</li>
-          </ul>
-        </div>
-      </div>
-
-    </div>
-
-    <div id="footer">
-      <strong>Александр</strong>
-      <br/>
-      Москва, Россия, <a href="mailto:konotop999@gmail.com">konotop999@gmail.com</a>
-    </div>
-
-  </body>
-</html>
+{% include skills.html %}
