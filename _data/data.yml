@@ -58,38 +58,38 @@ education:
       - Statistical data processing
       - Interpretation of space images
 
-  experiences:
-    - role: Software Developer
-      time: 2018 - Present
-      company: Комсомольская правда, Москва
-      details: |
-        Разработка и поддержка высоконагруженного новостного портала
-        Реализация проектов для внешних и внутренних заказчиков в команде разработчиков
-        Стек разработки: JavaScript, React, TypeScript
+experiences:
+  - role: Software Developer
+    time: 2018 - Present
+    company: Комсомольская правда, Москва
+    details: |
+      Разработка и поддержка высоконагруженного новостного портала
+      Реализация проектов для внешних и внутренних заказчиков в команде разработчиков
+      Стек разработки: JavaScript, React, TypeScript
 
-    - role: Software Developer
-      time: 2013 - 2018
-      company: ПрофФинансКонсалтинг, Москва
-      details: |
-        Разработка веб-сайтов, систем управленческого и регламентированного учета.
+  - role: Software Developer
+    time: 2013 - 2018
+    company: ПрофФинансКонсалтинг, Москва
+    details: |
+      Разработка веб-сайтов, систем управленческого и регламентированного учета.
 
-    - role: Software Developer
-      time: 2008 - 2013
-      company: ЭкоАудитКонсалтинг, Москва
-      details: |
-        Разработка и поддержка внутренних корпоративных систем учета в сфере недвижимости.
+  - role: Software Developer
+    time: 2008 - 2013
+    company: ЭкоАудитКонсалтинг, Москва
+    details: |
+      Разработка и поддержка внутренних корпоративных систем учета в сфере недвижимости.
 
-    - role: Software Developer
-      time: 2006 - 2008
-      company: Столичные аптеки, Москва
-      details: |
-        Разработка и поддержка внутренних корпоративных систем учета в сфере фармацевтики.
+  - role: Software Developer
+    time: 2006 - 2008
+    company: Столичные аптеки, Москва
+    details: |
+      Разработка и поддержка внутренних корпоративных систем учета в сфере фармацевтики.
 
-    - role: Software Developer
-      time: 2004 - 2006
-      company: Ю-Софт, Москва
-      details: |
-        Разработка и поддержка программных продуктов по требованию сторонних заказчиков.
+  - role: Software Developer
+    time: 2004 - 2006
+    company: Ю-Софт, Москва
+    details: |
+      Разработка и поддержка программных продуктов по требованию сторонних заказчиков.
 
 skills:
   title: Skills &amp; Proficiency
