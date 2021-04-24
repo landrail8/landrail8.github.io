@@ -48,15 +48,14 @@ career-profile:
     Также в работе использую git, webpack, figma, storybook, jira, bitbucket, youtrack, gitlab, jest, saga, lodash.
 
 education:
-    degree: Landscape science
-    university: Moscow State University
-    time: 1999 - 2005
-    details: |
-      Description Earth's surface through modern geography.
-
-        - Mathematical modeling of landscapes
-        - Statistical data processing
-        - Interpretation of space images
+  degree: Landscape science
+  university: Moscow State University
+  time: 1999 - 2005
+  details: |
+    Description Earth's surface through modern geography.
+      - Mathematical modeling of landscapes
+      - Statistical data processing
+      - Interpretation of space images
 
 experiences:
   - role: Software Developer
