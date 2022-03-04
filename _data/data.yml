@@ -7,8 +7,8 @@ sidebar:
   #education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Александр Шурыгин
-  tagline: Front-End Developer
+  name: Aleksandr Shurygin
+  tagline: Full Stack Web Developer
   avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -31,16 +31,16 @@ sidebar:
       level: Intermediate
 
   interests:
-    - item: Плавание
+    - item: tennis
       link:
 
-    - item: Теннис
+    - item: tourism
       link:
 
-    - item: Туризм
+    - item: swimming
       link:
 
-    - item: Чтение
+    - item: reading
       link:
 
 career-profile:
