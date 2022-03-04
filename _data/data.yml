@@ -24,10 +24,10 @@ sidebar:
   codewars:
 
   languages:
-    - idiom: Русский
-      level: Родной
+    - idiom: Russian
+      level: Native language
 
-    - idiom: Английский
+    - idiom: English
       level: Intermediate
 
   interests:
@@ -46,9 +46,14 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Создание и поддержка сайтов и бизнес-приложений в составе команды разработчиков. Основной стек: JavaScript, React, Redux, TypeScript.
+    Creation and support of websites and business applications.
 
-    Также в работе использую git, webpack, figma, storybook, jira, bitbucket, youtrack, gitlab, jest, saga, lodash.
+    Main stack: Clojure / ClojureScript, TypeScript, React.
+
+    Use tools: git, webpack, figma, storybook, jira, bitbucket, youtrack, gitlab, etc.
+
+    Known libs
+       - reagent, re-frame, malli, migratus, honeysql, material design, ant design, styled-components, redux, jest, saga, lodash, etc.
 
 education:
     - degree: Landscape science
@@ -62,45 +67,59 @@ education:
 
 experiences:
   - role: Software Developer
-    time: 2018 - Present
-    company: Комсомольская правда, Москва
+    time: 2021 - Present
+    company: SberBank, Moscow
     details: |
-      Разработка и поддержка высоконагруженного новостного портала
+      Development and support of an internal CRM system
 
-      Разработка и поддержка внутренней CRM-системы
+      Stack: Clojure, ClojureScript, Postgres
 
-      Реализация проектов для внешних и внутренних заказчиков в команде разработчиков
+  - role: Software Developer
+    time: 2018 - 2021
+    company: Komsomolskaya pravda, Moscow
+    details: |
+      Development and support of a high-load news portal
 
-      Стек разработки: JavaScript, React, TypeScript
+      Development and support of an internal CRM system
+
+      Implementation of projects for external and internal customers
+
+      Stack: JavaScript, React, TypeScript
 
   - role: Software Developer
     time: 2013 - 2018
-    company: ПрофФинансКонсалтинг, Москва
+    company: Prof Finans Konsalting, Moscow
     details: |
-      Разработка веб-сайтов, систем управленческого и регламентированного учета.
+      Development of websites, ERP systems for customers.
 
   - role: Software Developer
     time: 2008 - 2013
-    company: ЭкоАудитКонсалтинг, Москва
+    company: Eko Audit Konsalting, Moscow
     details: |
-      Разработка и поддержка внутренних корпоративных систем учета в сфере недвижимости.
+      Development of websites, ERP system in real estate.
 
   - role: Software Developer
     time: 2006 - 2008
-    company: Столичные аптеки, Москва
+    company: Stolichnye apteki, Moscow
     details: |
-      Разработка и поддержка внутренних корпоративных систем учета в сфере фармацевтики.
+      Development of ERP system in pharmaceuticals.
 
   - role: Software Developer
     time: 2004 - 2006
-    company: Ю-Софт, Москва
+    company: U-Soft, Moscow
     details: |
-      Разработка и поддержка программных продуктов по требованию сторонних заказчиков.
+      Development of ERP system for customers.
 
 skills:
   title: Skills &amp; Proficiency
 
   toolset:
+    - name: ClojureScript
+      level: 90%
+
+    - name: Clojure
+      level: 80%
+
     - name: JavaScript
       level: 90%
 
@@ -113,5 +132,5 @@ skills:
     - name: Typescript
       level: 80%
 
-footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+#footer: >
+#  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
