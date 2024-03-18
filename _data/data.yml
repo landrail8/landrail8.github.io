@@ -48,7 +48,7 @@ career-profile:
   summary: |
     Creation and support of websites and business applications.
 
-    Main stack: Clojure / ClojureScript, TypeScript, React.
+    Main stack: TypeScript, NextJS, React, PostgreSQL, Clojure / ClojureScript, NodeJS.
 
     Use tools: git, webpack, figma, storybook, jira, bitbucket, youtrack, gitlab, etc.
 
@@ -67,10 +67,23 @@ education:
 
 experiences:
   - role: Software Developer
-    time: 2021 - Present
+    time: 2023 - present
+    details: |
+      Development and support applications for business
+
+      Stack: NextJS, React, Postgres, Telegram API
+
+  - role: Software Developer
+    time: 2021 - 2023
     company: SberBank, Moscow
     details: |
-      Development and support of an internal CRM system
+      Development and support of an internal CRM financial system
+
+      Developing backend functionalities
+
+      Designing and implementing user interfaces for the CRM financial system
+
+      Integration with other bank systems
 
       Stack: Clojure, ClojureScript, Postgres
 
@@ -78,13 +91,13 @@ experiences:
     time: 2018 - 2021
     company: Komsomolskaya pravda, Moscow
     details: |
-      Development and support of a high-load news portal
+      Development and support of a high-load news portal kp.ru
 
       Development and support of an internal CRM system
 
       Implementation of projects for external and internal customers
 
-      Stack: JavaScript, React, TypeScript
+      Stack: JavaScript, React, TypeScript, Clojure
 
   - role: Software Developer
     time: 2013 - 2018
