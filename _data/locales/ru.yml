@@ -218,7 +218,9 @@ competencies:
         - id: backend
           name: Node.js / Clojure
         - id: database
-          name: PostgreSQL
+          name: MS SQL / PostgreSQL
+        - id: 1c
+          name: 1C ERP
         - id: telegram
           name: Telegram API
 

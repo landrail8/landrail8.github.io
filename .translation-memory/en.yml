@@ -118,10 +118,10 @@ entries:
     source_hash: abd9c41a18f0993041ff82c212075fa771931e7e947131edf16ad34175c6ced5
     source: 'Более 20 лет занимаюсь автоматизацией бизнеса, из них более 10 лет — в роли руководителя ИТ-проектов. Прошёл путь от программиста до ИТ-директора, работал с компаниями в инженерии, производстве, строительстве, финансах, медиа и консалтинге.
 
-      '
+'
     translation: 'I have more than 20 years of experience in business automation, including over 10 years leading IT projects. I progressed from software developer to IT director and have worked with companies in engineering, manufacturing, construction, finance, media, and consulting.
 
-      '
+'
     status: approved
   value_proposition.summary:
     source_hash: 72fc9e00d2a12d288d5659a287288a96146c5f8d920261bbe9ef1542d8a44bfe
@@ -605,12 +605,17 @@ entries:
     translation: Node.js / Clojure
     status: approved
   competencies.groups[id=technology].items[id=database].name:
-    source_hash: cc52d03280b7034c8e3653d2748ebd489a873ef4bbc89cb187fbfcabfbbf6873
-    source: PostgreSQL
-    translation: PostgreSQL
+    source_hash: e5713cd2060b766a0673ecf3ac35abfeec256161e07c549e430ea218d4b37a05
+    source: MS SQL / PostgreSQL
+    translation: MS SQL / PostgreSQL
     status: approved
   competencies.groups[id=technology].items[id=telegram].name:
     source_hash: 825acb3bc6373135d293c247b17fab208206db20cd5e8085bb17c12b3b043e71
     source: Telegram API
     translation: Telegram API
+    status: approved
+  competencies.groups[id=technology].items[id=1c].name:
+    source_hash: 41e6ca7bef704dc0076d07f6baef63ddbaef354c3ef28c7482111fdd3b451a48
+    source: 1C ERP
+    translation: 1C ERP
     status: approved

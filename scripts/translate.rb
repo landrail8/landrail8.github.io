@@ -38,7 +38,8 @@ def load_yaml(path)
 end
 
 def dump_yaml(path, value)
-  File.write(path, Psych.dump(value, line_width: -1))
+  yaml = Psych.dump(value, line_width: -1).gsub(/[ \t]+$/, "")
+  File.write(path, yaml)
 end
 
 def segment_for(item, index)
