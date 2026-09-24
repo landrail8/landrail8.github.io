@@ -1,0 +1,22 @@
+{% assign section = locale.management_scope %}
+{% if section %}
+<section class="section management-scope-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-sitemap fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ section.title }}
+  </h2>
+
+  <p class="section-intro">{{ section.intro }}</p>
+  <div class="scope-grid">
+    {% for item in section.items %}
+    <div class="scope-item">
+      <h3>{{ item.title }}</h3>
+      <p>{{ item.details }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

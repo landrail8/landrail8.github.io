@@ -1,0 +1,25 @@
+{% assign section = locale.competencies %}
+{% if section %}
+<section class="section competencies-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-toolbox fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ section.title }}
+  </h2>
+
+  <div class="competency-grid">
+    {% for group in section.groups %}
+    <div class="competency-group">
+      <h3>{{ group.title }}</h3>
+      <ul>
+        {% for item in group.items %}
+        <li>{{ item.name }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

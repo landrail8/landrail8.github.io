@@ -1,10 +1,10 @@
-{% assign sidebar = site.data.data.sidebar %}
+{% assign sidebar = locale.sidebar %}
 <div class="sidebar-wrapper">
 
   <div class="profile-container">
 
     {% if sidebar.name %}
-    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+    <img class="avatar" src="{{ '/assets/images/' | append: sidebar.avatar | relative_url }}" alt="{{ sidebar.name }}" />
     {% endif %}
 
     {% if sidebar.name %}
@@ -14,6 +14,12 @@
     {% if sidebar.tagline %}
     <h3 class="tagline">{{ sidebar.tagline }}</h3>
     {% endif %}
+
+    <nav class="language-switcher" aria-label="{{ locale.labels.choose_language }}">
+      <a href="{{ '/ru/' | relative_url }}" lang="ru"{% if page.lang == 'ru' %} aria-current="page"{% endif %}>RU</a>
+      <span aria-hidden="true">/</span>
+      <a href="{{ '/en/' | relative_url }}" lang="en"{% if page.lang == 'en' %} aria-current="page"{% endif %}>EN</a>
+    </nav>
 
   </div><!--//profile-container-->
 

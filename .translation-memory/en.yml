@@ -1,0 +1,616 @@
+---
+version: 1
+source_locale: ru
+target_locale: en
+entries:
+  meta.title:
+    source_hash: ccbdaa7f44eac441cac8e734cedeb5eebdfae4b20218bb7c364050833eca9038
+    source: Александр Шурыгин — ИТ-директор | ИТ-бизнес-партнёр | Руководитель проектов автоматизации
+    translation: Aleksandr Shurygin — IT Director | IT Business Partner | Automation Project Manager
+    status: approved
+  meta.description:
+    source_hash: 3a0f901e1e20031f15897f0fade16bedb2e8ea630b6e760e2f47306330a523cc
+    source: ИТ-директор и руководитель проектов автоматизации с опытом цифровой трансформации бизнеса
+    translation: IT Director and automation project leader with hands-on business transformation experience
+    status: approved
+  labels.choose_language:
+    source_hash: 7605dfe6eb1980b7c1e46c099ca1ae330f7cf7363b638cbe9e534e8b44f5cf1e
+    source: Выбор языка
+    translation: Choose language
+    status: approved
+  labels.languages:
+    source_hash: 19e4bb1a50f2d39f09ea9852c5bdc387675348eabed46ebb3676697e18284c51
+    source: Языки
+    translation: Languages
+    status: approved
+  labels.interests:
+    source_hash: d1c193bf4db57dbf26f08a37a0ddc07cf088107e6a626a3ad7f4637c4bdf6d85
+    source: Интересы
+    translation: Interests
+    status: approved
+  sidebar.name:
+    source_hash: 7b80ff8b3a847bebd201de5c8e8461a8ed1eacd9f74e9e46a869062435251695
+    source: Александр Шурыгин
+    translation: Aleksandr Shurygin
+    status: approved
+  sidebar.tagline:
+    source_hash: 5cf7b1f581ffec938599b657727e14ac6480b01e57493d7efac0713fac165e56
+    source: |-
+      ИТ-директор
+      ИТ-бизнес-партнёр
+      Руководитель проектов автоматизации
+    translation: |-
+      IT Director
+      IT Business Partner
+      Automation Project Manager
+    status: approved
+  sidebar.languages[id=russian].idiom:
+    source_hash: 6da140fdd4be01893bd14afe43ad5d1cc2a4eec98fc37e67e91e0c63fd703094
+    source: Русский
+    translation: Russian
+    status: approved
+  sidebar.languages[id=english].idiom:
+    source_hash: e7c1ef1d8e72722a9b21a5f6219cf6acbaf519ad8c96b8dd60f422b75660b186
+    source: Английский
+    translation: English
+    status: approved
+  sidebar.interests[id=tennis].item:
+    source_hash: e7f168097be065a6b8cb0f461189d3d99dcd97fe86415faf7976cb3ad1271d08
+    source: Теннис
+    translation: Tennis
+    status: approved
+  sidebar.interests[id=tourism].item:
+    source_hash: e6eab597d1f78965110ecbef10c178ed8df72119bfb8ce27ff5a96a2abf8ff26
+    source: Туризм
+    translation: Tourism
+    status: approved
+  sidebar.interests[id=swimming].item:
+    source_hash: c4529bdb37654e8da6979d46bc1d93dafd6389d7ca99ae67011964feeff0fae6
+    source: Плавание
+    translation: Swimming
+    status: approved
+  sidebar.interests[id=reading].item:
+    source_hash: 1919a311997d12425b415405ade7d7fd28cb58dd82eadca1b9742a8cd9061e4f
+    source: Чтение
+    translation: Reading
+    status: approved
+  sidebar.website:
+    source_hash: a227e810676b2e6377c05a23afec05f028f440adbb6e2a93a362c81a3c539d56
+    source: landrail8.github.io/ru/
+    translation: landrail8.github.io/en/
+    status: approved
+  sidebar.languages[id=russian].level:
+    source_hash: 472bd1afc9df07a1c88cd836dbac8c64dae6c4712caeb39a4eaa49be2c9b5158
+    source: Родной язык
+    translation: Native
+    status: approved
+  sidebar.languages[id=english].level:
+    source_hash: e4578006525870173c2b5e51e3080e730c40594e7e3d6ed635c88da5cade2854
+    source: Средний уровень
+    translation: Intermediate
+    status: approved
+  labels.challenge:
+    source_hash: b9ce27191d406d71bbd93e9ec6d360836a5b90e1577aca061e30adbbf8dc919e
+    source: Задача
+    translation: Challenge
+    status: approved
+  labels.role:
+    source_hash: cc0e3a1553d6356db80a3c005383cb857f46ee3668424acefe897286686bb68f
+    source: Моя роль
+    translation: My role
+    status: approved
+  labels.solution:
+    source_hash: 199d6db958cdb81713e474a75baeddf7b70122aae0da9f96eb6a238caf738786
+    source: Решение
+    translation: Solution
+    status: approved
+  labels.result:
+    source_hash: 4997a5143d9fa486a41469797af0b15f59e231a3d1c3a3aff8d141e29bf0cc81
+    source: Результат
+    translation: Result
+    status: approved
+  value_proposition.title:
+    source_hash: '078c9734a0390c178768c7a7cd8704c703f6bff8fc965f253d1a8ae43110e42d'
+    source: Ценность для бизнеса
+    translation: Business Value
+    status: approved
+  value_proposition.lead:
+    source_hash: abd9c41a18f0993041ff82c212075fa771931e7e947131edf16ad34175c6ced5
+    source: 'Более 20 лет занимаюсь автоматизацией бизнеса, из них более 10 лет — в роли руководителя ИТ-проектов. Прошёл путь от программиста до ИТ-директора, работал с компаниями в инженерии, производстве, строительстве, финансах, медиа и консалтинге.
+
+'
+    translation: 'I have more than 20 years of experience in business automation, including over 10 years leading IT projects. I progressed from software developer to IT director and have worked with companies in engineering, manufacturing, construction, finance, media, and consulting.
+
+'
+    status: approved
+  value_proposition.summary:
+    source_hash: 72fc9e00d2a12d288d5659a287288a96146c5f8d920261bbe9ef1542d8a44bfe
+    source: |
+      Сейчас отвечаю за цифровую трансформацию производственного холдинга: разрабатываю и внедряю ИТ-стратегию, формирую и контролирую ИТ-бюджет, одновременно веду несколько проектов с внутренними командами, подрядчиками и консультантами.
+
+      Соединяю потребности бизнеса, изменения процессов и техническую реализацию — от описания требований до внедрения, обучения пользователей и сопровождения.
+    translation: |
+      I currently lead the digital transformation of a manufacturing holding company: developing and implementing its IT strategy, planning and controlling the IT budget, and managing several projects with internal teams, vendors, and consultants.
+
+      I connect business needs, process change, and technical delivery — from requirements definition through implementation, user training, and ongoing support.
+    status: approved
+  value_proposition.stats[id=automation].value:
+    source_hash: b8ecd343c99252cbadde9c238956f827284c2ac6d26ec86ae3f0f6bf07804105
+    source: 20+
+    translation: 20+
+    status: approved
+  value_proposition.stats[id=automation].label:
+    source_hash: c9fa53612f2df39a023cd11576e428aa5615a9a7ca3ebe6798fae68573847ba7
+    source: лет в автоматизации бизнеса
+    translation: years in business automation
+    status: approved
+  value_proposition.stats[id=leadership].value:
+    source_hash: 974989cf0d9f3c463badcd6d881310d7950b11fe490302e39f93d7d924aa4133
+    source: 10+
+    translation: 10+
+    status: approved
+  value_proposition.stats[id=leadership].label:
+    source_hash: 1c610c6ab07886e5398250097520e846f9b877bdb31d16651d220dba6aa06ef2
+    source: лет управления ИТ-проектами
+    translation: years leading IT projects
+    status: approved
+  value_proposition.stats[id=career].value:
+    source_hash: 333442242354b6ef3a5dabbc58648c91f10d3a43f46ae099154518549a5d9533
+    source: Программист → ИТ-директор
+    translation: Developer → IT Director
+    status: approved
+  value_proposition.stats[id=career].label:
+    source_hash: 07fe4625bd56acacd041a4737f2db1d0900f88d30110592d05dc1096464b1462
+    source: профессиональный путь
+    translation: professional journey
+    status: approved
+  business_value.title:
+    source_hash: 52670b33c3c3184ddeb84fa11c34ece64679c99d9478ccc338288b3ca71d6f11
+    source: Как создаю ценность
+    translation: How I Create Value
+    status: approved
+  business_value.items[id=diagnose].title:
+    source_hash: 9e261f39435bbc371ac53af9654d67057d657a010514800fc96245b965dab9bf
+    source: Нахожу точки потерь
+    translation: Identify Operational Losses
+    status: approved
+  business_value.items[id=diagnose].details:
+    source_hash: 3e52eadc101508ad2305d3200cf1bcef34019fec035e178eee1abd643c1c6a07
+    source: Анализирую процессы, данные и ограничения. Выявляю ручные операции, разрывы между подразделениями и причины управленческой непрозрачности.
+    translation: I analyze processes, data, and constraints to uncover manual work, gaps between departments, and causes of limited management visibility.
+    status: approved
+  business_value.items[id=design].title:
+    source_hash: efbfe555a9a7e042699cf9fa57de06b8e6e9cea1f6694a0501c353b908a94a24
+    source: Проектирую решение
+    translation: Design the Solution
+    status: approved
+  business_value.items[id=design].details:
+    source_hash: a3f6b4e46892f993dbe5a81d6c0d0cf7467dfb06b91e379f2d4a735025d639c9
+    source: Перевожу бизнес-цели в требования, показатели и портфель ИТ-инициатив. Определяю приоритеты, роли, процессы и ожидаемый результат.
+    translation: I translate business goals into requirements, performance indicators, and a portfolio of IT initiatives. I define priorities, roles, processes, and expected outcomes.
+    status: approved
+  business_value.items[id=deliver].title:
+    source_hash: 6382bd1824a6ceef67ca04b6f0613e5d94c971a1d3e192dfb8f9aa4a7739e3f0
+    source: Довожу до внедрения
+    translation: Deliver Adoption
+    status: approved
+  business_value.items[id=deliver].details:
+    source_hash: 07e9ac6ff10b9b5c90803bf6aeadc7010a99d943163a8b35a7b77b1840d8483d
+    source: Координирую внутренние команды, подрядчиков и консультантов. Веду проект от постановки задачи до запуска, обучения пользователей и сопровождения.
+    translation: I coordinate internal teams, vendors, and consultants. I lead projects from problem definition through launch, user training, and ongoing support.
+    status: approved
+  business_value.items[id=manage].title:
+    source_hash: c5e3449e8679e1a9a40ed8148478f5318e27d2a385afb272de06cf5cae1d2db4
+    source: Создаю инструменты управления
+    translation: Build Management Tools
+    status: approved
+  business_value.items[id=manage].details:
+    source_hash: 57828f826e541d0fd27c96bd6faee2210eb364e38d921781cfe840c094343d28
+    source: Формирую KPI подразделений и сотрудников, управленческую отчётность и дашборды. Даю руководителям данные для принятия решений.
+    translation: I define KPIs for departments and employees, management reporting, and dashboards, giving executives reliable data for decision-making.
+    status: approved
+  results.title:
+    source_hash: 83839e9717975c0f91b45acb430463599cf2cab7ddc24a4a6f48f6553382385e
+    source: Ключевые результаты
+    translation: Key Results
+    status: approved
+  results.items[id=proposal].metric:
+    source_hash: c4c2c59efde6b628ce7aa5c9b4adb7fc5fa0a88a06ab7b7d1033746ebfce51cb
+    source: 15 минут
+    translation: 15 minutes
+    status: approved
+  results.items[id=proposal].before:
+    source_hash: c45f35c7394bde2c9f23ebcec7df26af263b8d012a69e02c650080617f0dc89f
+    source: 'Было: 4 часа — 1 день'
+    translation: 'Previously: 4 hours to 1 day'
+    status: approved
+  results.items[id=proposal].title:
+    source_hash: 90bc3165e8666d58536030105b882d9ce1ffc30c04547971e4bc91a871ff65f8
+    source: Подготовка коммерческого предложения
+    translation: Commercial Proposal Preparation
+    status: approved
+  results.items[id=proposal].details:
+    source_hash: 1a5be2fdfeeaecf7f5acf5999463baf0d365685a97c3ef5b77be853cc2e2d4fb
+    source: Внедрил адресный склад и изменил процесс работы с остатками и аналогами товаров.
+    translation: Implemented location-based inventory management and redesigned the process for working with stock balances and product alternatives.
+    status: approved
+  results.items[id=order-import].metric:
+    source_hash: 2c8dddde09569048208e4631f8cfe0f694ac53cb4074e42b5a22ae1230583f0f
+    source: Excel → ERP
+    translation: Excel → ERP
+    status: approved
+  results.items[id=order-import].title:
+    source_hash: ecd5fb45c2c59fb77272e9fac532276a082a2482a76d5f583767ea195af1a034
+    source: Самостоятельная загрузка клиентских заявок
+    translation: Self-Service Customer Request Upload
+    status: approved
+  results.items[id=order-import].details:
+    source_hash: 7f2bb1ef385522878c3c7f8834fd1876d4cf67daa3b99ce339cae07af706189f
+    source: Автоматизировал сопоставление номенклатуры и перенос расчёта сделки в заказ. Менеджеры выполняют операцию без участия отдельного сотрудника.
+    translation: Automated product matching and transfer of deal calculations into orders. Sales managers now complete the operation without a separate employee.
+    status: approved
+  results.items[id=data-model].metric:
+    source_hash: ab8087a7bccffa1b011247e8f4be201638bd098de17a4bb850bf7070613bba1b
+    source: Единый контур данных
+    translation: Unified Data Environment
+    status: approved
+  results.items[id=data-model].title:
+    source_hash: 8a107849fde8ab35147724c9de69dce7be6f8375f3555950d40b1735c44f3911
+    source: Управление на базе 1С ERP
+    translation: Management Based on 1C ERP
+    status: approved
+  results.items[id=data-model].details:
+    source_hash: d6a37687f5899311f1813f6a83b7f5cbb4a1888e6f374e15f4e58c8512b7ec8e
+    source: Объединил данные по поставкам, складу, производству и продажам. Настроил ролевую модель, отчётность и дашборды.
+    translation: Unified supply, warehouse, manufacturing, and sales data. Implemented role-based access, reporting, and dashboards.
+    status: approved
+  results.items[id=ai].metric:
+    source_hash: 35027899f2f9ff60de8df0e4a4270ba86f3117a462491329e9bf2ad3a4ed77a7
+    source: ИИ в процессах
+    translation: AI in Operations
+    status: approved
+  results.items[id=ai].title:
+    source_hash: 788ad78c08317832818f109ec4e9b52f504138dce013056b7cb4013e3db67213
+    source: Автоматизация работы с информацией
+    translation: Information Workflow Automation
+    status: approved
+  results.items[id=ai].details:
+    source_hash: 761f123b9f49d155b59479b1d4593156879119bbe96944057704c67ff842f92e
+    source: Внедрял протоколирование совещаний, Telegram-бота для ответов клиентам и квалификации лидов, анализ договоров по заданным критериям.
+    translation: Implemented meeting transcription, a Telegram bot for customer responses and lead qualification, and contract analysis against defined criteria.
+    status: approved
+  transformation_cases.title:
+    source_hash: 6af1b4d748e8bcba7154cce03f9cba8c1b9b20c5bf08689c96bc5593aed99964
+    source: Проекты трансформации
+    translation: Transformation Projects
+    status: approved
+  transformation_cases.items[id=holding].title:
+    source_hash: 6479e349afc7ebc7283a3399d6fc503a1f327150bf00915d97730d76af80da31
+    source: Цифровая трансформация производственного холдинга
+    translation: Digital Transformation of a Manufacturing Holding
+    status: approved
+  transformation_cases.items[id=holding].challenge:
+    source_hash: 53d223a797c9a7205ce1a739192cf4aa8553043c66ff8b226a1fdadf4e755140
+    source: Связать бизнес-цели, процессы подразделений и разрозненные ИТ-инициативы.
+    translation: Connect business goals, departmental processes, and fragmented IT initiatives.
+    status: approved
+  transformation_cases.items[id=holding].role:
+    source_hash: 4f89f8a91014037cd82f5c9bc9e56a895ea732b5af395c878c23db840aa60b38
+    source: ИТ-стратегия, бюджет, портфель проектов, требования, координация команд внедрения и консультантов.
+    translation: IT strategy, budgeting, project portfolio, requirements, and coordination of implementation teams and consultants.
+    status: approved
+  transformation_cases.items[id=holding].solution:
+    source_hash: 59d45cd1b2573ded6b112ac62afe15494e135d8d753da8508ca0c1f831c857d7
+    source: 1С ERP, единая модель данных, описание процессов и ролей, управленческая отчётность, KPI и проектная аналитика.
+    translation: 1C ERP, a unified data model, documented processes and roles, management reporting, KPIs, and project analytics.
+    status: approved
+  transformation_cases.items[id=holding].result:
+    source_hash: 4dcdb56918f94e6fc58164f3174218372b665d608e86cec8848047c77a27550f
+    source: Бизнес получает единый информационный контур и прозрачные показатели для управления операционной деятельностью.
+    translation: The business gains a unified information environment and transparent indicators for operational management.
+    status: approved
+  transformation_cases.items[id=sales-warehouse].title:
+    source_hash: 81653e7670ec415dde78873b0df6d9d2fe34cd73e45f4e40f9a69f2338080081
+    source: Автоматизация продаж и складских операций
+    translation: Sales and Warehouse Automation
+    status: approved
+  transformation_cases.items[id=sales-warehouse].challenge:
+    source_hash: 36a625e09d1fb0bbfebd1deb03a93932cf69f168929f1f38312da37c8065b940
+    source: Ускорить расчёт сделок и повысить прозрачность остатков.
+    translation: Accelerate deal calculations and improve inventory visibility.
+    status: approved
+  transformation_cases.items[id=sales-warehouse].role:
+    source_hash: c33431b407463ea627cfc3220da918b5113dccdd10df124ea3dadcfb40e391d9
+    source: Анализ процесса, постановка требований, координация реализации и внедрение нового порядка работы.
+    translation: Process analysis, requirements definition, implementation coordination, and rollout of the new operating model.
+    status: approved
+  transformation_cases.items[id=sales-warehouse].solution:
+    source_hash: cee88805c6e785e4e0e0984ef1ea39538585b8b1e1d8c7002a0e12308590a91f
+    source: Адресный склад, работа с аналогами, импорт клиентских заявок и автоматическое сопоставление номенклатуры.
+    translation: Location-based inventory management, product alternatives, customer request import, and automated product matching.
+    status: approved
+  transformation_cases.items[id=sales-warehouse].result:
+    source_hash: 5cd86bd4a66d544a62c773e4b5e09b82031986ca4f3a3c19e5d2907c59e740df
+    source: Время подготовки коммерческого предложения сократилось с 4 часов — 1 дня до 15 минут.
+    translation: Commercial proposal preparation was reduced from 4 hours to 1 day down to 15 minutes.
+    status: approved
+  transformation_cases.items[id=crm-ai].title:
+    source_hash: 92968d9568d0f6dd4729211fc806765591dc725d9ccce6f5b3b90ac32a419ec8
+    source: CRM и интеллектуальная автоматизация
+    translation: CRM and Intelligent Automation
+    status: approved
+  transformation_cases.items[id=crm-ai].challenge:
+    source_hash: 79cc9b8a9d0206b9bcf905923dbb224567b0d7d366f1eb0a68d15cab88aecdce
+    source: Сократить ручную работу с обращениями, встречами и документами.
+    translation: Reduce manual work with customer requests, meetings, and documents.
+    status: approved
+  transformation_cases.items[id=crm-ai].role:
+    source_hash: a85d98126edb9b5dddc16448e2a30a092719754fa7b2e6377b2500455cb4aea7
+    source: Поиск прикладных сценариев, проектирование процессов и внедрение инструментов.
+    translation: Identify practical use cases, design processes, and implement supporting tools.
+    status: approved
+  transformation_cases.items[id=crm-ai].solution:
+    source_hash: f5b28a68e76d5eeacca8a62fdbce6f0a582140cc8920518af7f59943ecdcdefe
+    source: Процессы в Битрикс24, Telegram-боты, квалификация лидов, протоколирование встреч и проверка договоров.
+    translation: Bitrix24 workflows, Telegram bots, lead qualification, meeting transcription, and contract review.
+    status: approved
+  transformation_cases.items[id=crm-ai].result:
+    source_hash: 04ab3812949ed95f7cb431c5297956120037a710cfc6f8559340bd620452a13c
+    source: Быстрее обрабатывается информация, а сотрудники работают по единым правилам.
+    translation: Information is processed faster and employees follow consistent operating rules.
+    status: approved
+  management_scope.title:
+    source_hash: 4880a8765d81e7d47cc2c729241071648003d01e3402d30b8605fb8ec0e86df1
+    source: Управленческий контур
+    translation: Management Scope
+    status: approved
+  management_scope.intro:
+    source_hash: 864f3db745d9c06381887ebbb741e965fd07322325c5d54a3ebfd48c09a7f67e
+    source: Отвечаю за связь стратегии, бизнес-процессов, команд и технологической реализации.
+    translation: I connect strategy, business processes, delivery teams, and technical implementation.
+    status: approved
+  management_scope.items[id=strategy].title:
+    source_hash: a3aaa44ffbe6d84ffdf62b3bbd230e5991200d40ff16402d667f5aa21bc4b689
+    source: Стратегия и бюджет
+    translation: Strategy and Budget
+    status: approved
+  management_scope.items[id=strategy].details:
+    source_hash: 82a8653f750f33a926b9e7e47d6a811c24aa623a40298d5d6de89ccace12b9b2
+    source: Разработка и реализация ИТ-стратегии, формирование и контроль ИТ-бюджета.
+    translation: IT strategy development and execution, IT budget planning and control.
+    status: approved
+  management_scope.items[id=portfolio].title:
+    source_hash: df13b12dcdb864735a42d225d268a41d3aa4311e6f4eba3153bce4b476705c5d
+    source: Портфель проектов
+    translation: Project Portfolio
+    status: approved
+  management_scope.items[id=portfolio].details:
+    source_hash: df36c646365771458c7d5c5140fe616029a924a880edd01af1004210bb80cf7c
+    source: Приоритизация инициатив и управление несколькими параллельными проектами.
+    translation: Initiative prioritization and management of several concurrent projects.
+    status: approved
+  management_scope.items[id=partnership].title:
+    source_hash: e5f3e4153e1848506bb3b3d6c25f51013f7562fe12117c56054db964854a1f76
+    source: Партнёрство с бизнесом
+    translation: Business Partnership
+    status: approved
+  management_scope.items[id=partnership].details:
+    source_hash: 734d15fa1af812a749e7d743acf3f38a087c143dcf5293672a6eca7d1c01da0a
+    source: Работа с руководителями подразделений, формирование требований и ожидаемых результатов.
+    translation: Collaboration with department heads, requirements definition, and agreement on expected outcomes.
+    status: approved
+  management_scope.items[id=teams].title:
+    source_hash: 9e54d2666e02620aca3dd3242474a27336e3e1adce983333860affa25af5afff
+    source: Команды и подрядчики
+    translation: Teams and Vendors
+    status: approved
+  management_scope.items[id=teams].details:
+    source_hash: 00dfbdbbff7e3eadd6b92cf4567e9c2f2f19fe6d24b236de0a1d4205eddf0157
+    source: Координация внутренних специалистов, команд внедрения, поставщиков и консультантов.
+    translation: Coordination of internal specialists, implementation teams, vendors, and consultants.
+    status: approved
+  management_scope.items[id=change].title:
+    source_hash: b63bc98a8a044bcb9bed3c31b0157d6c583a1fd59fc34764c7b0a8fc6c41b8db
+    source: Внедрение изменений
+    translation: Change Delivery
+    status: approved
+  management_scope.items[id=change].details:
+    source_hash: 407f086d10531333402a209cc4daa4f4c7660944a335554df09f5fce96896681
+    source: Описание процессов и ролей, обучение пользователей, контроль использования и сопровождение.
+    translation: Process and role design, user training, adoption control, and ongoing support.
+    status: approved
+  management_scope.items[id=analytics].title:
+    source_hash: da9b4dbc86a3e9ead4d3080e295a6209394df10f5de5e174f8960d5ae37308f6
+    source: Данные и KPI
+    translation: Data and KPIs
+    status: approved
+  management_scope.items[id=analytics].details:
+    source_hash: 0b4e8c850d39cbd86eb448cb48b62de7a35ea997ef5096d6a48a07a572790d24
+    source: Управленческая отчётность, дашборды и показатели подразделений, сотрудников и проектов.
+    translation: Management reporting, dashboards, and performance indicators for departments, employees, and projects.
+    status: approved
+  career_path.title:
+    source_hash: 20e18babd2cc7df85d3eac20b98c6687492f9c6b15906ba625c5f135922e1873
+    source: Карьерный путь
+    translation: Career Journey
+    status: approved
+  career_path.intro:
+    source_hash: c395fb3e5f82435fdc3895ace514192a9fff6acd956c6ed4df705caae4f50147
+    source: Технический опыт позволяет оценивать реализуемость решений, а управленческий — доводить их до практического использования.
+    translation: My technical background helps me assess feasibility, while my management experience helps me turn solutions into everyday business practice.
+    status: approved
+  career_path.items[id=it-director].title:
+    source_hash: 10b049d270e01a7d075bac8764c5794b14f6ff6d0499105b1ff7e61245708f07
+    source: ИТ-директор и ИТ-бизнес-партнёр
+    translation: IT Director and IT Business Partner
+    status: approved
+  career_path.items[id=it-director].focus:
+    source_hash: 5529982203ca679a8cad9c492edb40c625848ae8193cd078439cd1356a59ae7a
+    source: Цифровая трансформация производственного бизнеса
+    translation: Digital transformation of a manufacturing business
+    status: approved
+  career_path.items[id=it-director].details:
+    source_hash: 5de36c9b98916a3832a0193d365b62fccd00779ce8724ceab08433cc913cb3ca
+    source: ИТ-стратегия, бюджет, портфель инициатив, архитектура процессов и управленческая аналитика.
+    translation: IT strategy, budgeting, initiative portfolio, process architecture, and management analytics.
+    status: approved
+  career_path.items[id=project-lead].title:
+    source_hash: da9071e040a4a54b5df32c18576fd7d3a6d027bbede18ccdf3ab75d5ff5176c1
+    source: Руководитель проектов автоматизации
+    translation: Automation Project Manager
+    status: approved
+  career_path.items[id=project-lead].focus:
+    source_hash: 74800523c4f31510368689415c0223a76265ced8a78d007c5ec764285a77c488
+    source: Более 10 лет управления ИТ-проектами
+    translation: More than 10 years leading IT projects
+    status: approved
+  career_path.items[id=project-lead].details:
+    source_hash: 9976cfc4fb839b33ea51979305c578cc88f69d21bc6fc863ae1e6539dfdd5146
+    source: ERP, CRM, интеграции, отчётность, управление командами и изменениями.
+    translation: ERP, CRM, integrations, reporting, team leadership, and change management.
+    status: approved
+  career_path.items[id=developer].title:
+    source_hash: 20e03ce1ca4082311985605d91ee023ee12ca15cc13d25b283eb0ddcc69afc15
+    source: Разработчик и архитектор решений
+    translation: Developer and Solution Architect
+    status: approved
+  career_path.items[id=developer].focus:
+    source_hash: 6dbd1dd9cb6c9ffb77b67e0888613ab64f0b1e3b715565e298e4590533d83b92
+    source: Практическая техническая база
+    translation: Hands-on technical foundation
+    status: approved
+  career_path.items[id=developer].details:
+    source_hash: 9a720b36ca7ad0809a6108485a709e28d8a3d023ec8d7039ce1e1ee54bbda22d
+    source: Проектирование и разработка бизнес-систем, интеграций и пользовательских интерфейсов.
+    translation: Design and development of business systems, integrations, and user interfaces.
+    status: approved
+  career_path.industries:
+    source_hash: 89c8f64baada696c84963e988a02121553a5fde5fc1fd579d219c3c3fadb4813
+    source: Инженерия · Производство · Строительство · Финансы · Медиа · Консалтинг
+    translation: Engineering · Manufacturing · Construction · Finance · Media · Consulting
+    status: approved
+  competencies.title:
+    source_hash: 74fae94c5340d3c90beaacc89979eba39d1184ac9e65abc92d32286a43b5b2e7
+    source: Компетенции
+    translation: Competencies
+    status: approved
+  competencies.groups[id=business].title:
+    source_hash: d67605825068553c7a60a78d45f4e0b481c73e697a0f928a5d33239cc70ed834
+    source: Бизнес и управление
+    translation: Business and Management
+    status: approved
+  competencies.groups[id=business].items[id=it-strategy].name:
+    source_hash: bffac26d654ef2e543847785cf5e731bdb180f692554c20259547733ca2ce19a
+    source: ИТ-стратегия
+    translation: IT Strategy
+    status: approved
+  competencies.groups[id=business].items[id=budgeting].name:
+    source_hash: 0e910047be7836fff7a0c206304beb408cd07369838892c9fd9c1ef6fab6ea6f
+    source: Бюджетирование
+    translation: Budgeting
+    status: approved
+  competencies.groups[id=business].items[id=portfolio].name:
+    source_hash: 6ccc35c85e1a79b0b94ca0441b83dde9c383d66391e0ab401a3d0017e3d7a72b
+    source: Управление портфелем
+    translation: Portfolio Management
+    status: approved
+  competencies.groups[id=business].items[id=business-analysis].name:
+    source_hash: 0b602e952af77e788649d632577e9f6dd57c5d5db830a9dd9896da61b773b88d
+    source: Бизнес-анализ
+    translation: Business Analysis
+    status: approved
+  competencies.groups[id=business].items[id=change-management].name:
+    source_hash: 6cfbca5205a3114120e6c9d1fa2a2a91733367634fb60b09d2cf1229ca4cb73b
+    source: Управление изменениями
+    translation: Change Management
+    status: approved
+  competencies.groups[id=processes].title:
+    source_hash: ac4ca7f4248f3e8be54793cf166a898d2bfea66f88d8b30033f764a53eca6510
+    source: Процессы и данные
+    translation: Processes and Data
+    status: approved
+  competencies.groups[id=processes].items[id=process-modeling].name:
+    source_hash: b258d8a7c61657000129befdb07adfd4a86b2b52ee9b408338d8b3be8dd84f88
+    source: Моделирование процессов
+    translation: Process Modeling
+    status: approved
+  competencies.groups[id=processes].items[id=roles].name:
+    source_hash: 4c9e2ed323647e47d48f4e3b21ca1bba8ab0e814f678e4e04184223e905b03cf
+    source: Ролевая модель
+    translation: Role Model
+    status: approved
+  competencies.groups[id=processes].items[id=reporting].name:
+    source_hash: 661e0a66e1f18c531a4a747cb628a72a44249806d62732c2e456b9ecb9aaa5e3
+    source: Управленческая отчётность
+    translation: Management Reporting
+    status: approved
+  competencies.groups[id=processes].items[id=dashboards].name:
+    source_hash: 21d292a869906fcd429ae872794f9363430a3d467937d34a8a60d961455e5da9
+    source: Дашборды
+    translation: Dashboards
+    status: approved
+  competencies.groups[id=processes].items[id=kpi].name:
+    source_hash: f2536f5b3f1d03a1a3da07f762bd18b5142712678aa492bd4c066f13e4b71567
+    source: KPI
+    translation: KPIs
+    status: approved
+  competencies.groups[id=systems].title:
+    source_hash: 50cda7cbf3fbf1f0f08623b3f0acd24347a42899766972aeb19d060054dd7547
+    source: Системы и автоматизация
+    translation: Systems and Automation
+    status: approved
+  competencies.groups[id=systems].items[id=erp].name:
+    source_hash: 143ec7929be42a34d5781a6416d54664d739429f769cb3d9d4a6d29fad633725
+    source: 1С ERP
+    translation: 1C ERP
+    status: approved
+  competencies.groups[id=systems].items[id=bitrix].name:
+    source_hash: c0b8b1e33eae795aa042a2628cfa396824fcb4555b03d7fc26a7399743c13f96
+    source: Битрикс24
+    translation: Bitrix24
+    status: approved
+  competencies.groups[id=systems].items[id=crm].name:
+    source_hash: 130f70ae5b44ed4c645aad5cf7cf18ad2413c48e754dbfdec86cc781a26a5624
+    source: CRM
+    translation: CRM
+    status: approved
+  competencies.groups[id=systems].items[id=integrations].name:
+    source_hash: 74fc14c76699725aa05b15868fe2f6b65c6bf4ba660b97296ee4b9966e17336c
+    source: Интеграции
+    translation: Integrations
+    status: approved
+  competencies.groups[id=systems].items[id=ai].name:
+    source_hash: fc85e7623fc2d7e4a163c6229894860fef082ac3357cdbb4a303f0d1d4ce81ba
+    source: ИИ-инструменты
+    translation: AI Tools
+    status: approved
+  competencies.groups[id=technology].title:
+    source_hash: f3eb807afd401d8b2251cee87241f48d1cb175409f114bbb9be1403567ff338a
+    source: Техническая база
+    translation: Technical Foundation
+    status: approved
+  competencies.groups[id=technology].items[id=typescript].name:
+    source_hash: 3d50ee41538e4ff81c4c8191a04182021ae84e6d44460393cfd188961b01530f
+    source: TypeScript / JavaScript
+    translation: TypeScript / JavaScript
+    status: approved
+  competencies.groups[id=technology].items[id=react].name:
+    source_hash: 1ff62bb87620fca0a66e5c21b5051af12aac5efeb1fd76c50a3c8680b87e0793
+    source: React / Next.js
+    translation: React / Next.js
+    status: approved
+  competencies.groups[id=technology].items[id=backend].name:
+    source_hash: b661c0ff38169c6ee4228507de3b24c58a7f75d010e98d3d986bfd9dfe69a9c4
+    source: Node.js / Clojure
+    translation: Node.js / Clojure
+    status: approved
+  competencies.groups[id=technology].items[id=database].name:
+    source_hash: cc52d03280b7034c8e3653d2748ebd489a873ef4bbc89cb187fbfcabfbbf6873
+    source: PostgreSQL
+    translation: PostgreSQL
+    status: approved
+  competencies.groups[id=technology].items[id=telegram].name:
+    source_hash: 825acb3bc6373135d293c247b17fab208206db20cd5e8085bb17c12b3b043e71
+    source: Telegram API
+    translation: Telegram API
+    status: approved

@@ -1,18 +1,18 @@
 ---
-layout: default
+layout: null
+permalink: /
 ---
-
-
-{% include career-profile.html %}
-
-{% unless site.data.data.sidebar.education %}
-  {% include education.html %}
-{% endunless %}
-
-{% include experiences.html %}
-
-{% include projects.html %}
-
-{% include publications.html %}
-
-{% include skills.html %}
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="refresh" content="0; url={{ '/ru/' | relative_url }}">
+    <link rel="canonical" href="{{ '/ru/' | absolute_url }}">
+    <title>Александр Шурыгин</title>
+    <script>window.location.replace("{{ '/ru/' | relative_url }}");</script>
+  </head>
+  <body>
+    <p><a href="{{ '/ru/' | relative_url }}">Открыть русскую версию</a></p>
+  </body>
+</html>

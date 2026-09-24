@@ -64,8 +64,30 @@ p {
         color: rgba(256, 256, 256, 0.6);
         font-size: 16px;
         font-weight: 400;
+        line-height: 1.45;
         margin-top: 0;
         margin-bottom: 0;
+        white-space: pre-line;
+    }
+    .language-switcher {
+        margin-top: 16px;
+        font-size: 13px;
+        letter-spacing: 0.08em;
+
+        a {
+            color: rgba(255, 255, 255, 0.65);
+            text-decoration: none;
+        }
+
+        a[aria-current="page"] {
+            color: #fff;
+            font-weight: 700;
+        }
+
+        span {
+            margin: 0 6px;
+            color: rgba(255, 255, 255, 0.4);
+        }
     }
     .profile {
         margin-bottom: 15px;
@@ -231,6 +253,235 @@ p {
         .item {
             margin-bottom: 15px;
         }
+    }
+}
+
+.value-proposition-section {
+    .value-lead {
+        color: $text-color;
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .value-summary {
+        margin-bottom: 22px;
+    }
+}
+
+.cv-stats {
+    display: flex;
+    gap: 12px;
+}
+
+.cv-stat {
+    flex: 1;
+    padding: 14px 12px;
+    border-top: 3px solid $theme-color;
+    background: $smoky-white;
+    text-align: center;
+}
+
+.cv-stat-value {
+    color: darken($theme-color, 15%);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.cv-stat-label {
+    margin-top: 5px;
+    color: $text-grey;
+    font-size: 12px;
+    line-height: 1.35;
+}
+
+.cv-card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+}
+
+.cv-card {
+    padding: 18px;
+    border: 1px solid darken($smoky-white, 6%);
+    border-radius: 3px;
+    background: #fff;
+
+    h3 {
+        margin: 0 0 9px;
+        color: $text-color;
+        font-size: 15px;
+        line-height: 1.35;
+    }
+
+    p {
+        margin: 0;
+    }
+}
+
+.value-card {
+    position: relative;
+    padding-top: 48px;
+}
+
+.cv-card-icon {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    color: $theme-color;
+    font-size: 20px;
+}
+
+.result-card {
+    border-top: 3px solid $theme-color;
+}
+
+.result-metric {
+    margin-bottom: 4px;
+    color: darken($theme-color, 15%);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.result-before {
+    margin-bottom: 12px;
+    color: $text-grey;
+    font-size: 12px;
+}
+
+.case-item {
+    margin-bottom: 20px;
+    padding: 20px 20px 16px;
+    border-left: 4px solid $theme-color;
+    background: $smoky-white;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    h3 {
+        margin: 0 0 15px;
+        color: $text-color;
+        font-size: 17px;
+    }
+
+    dl {
+        display: grid;
+        grid-template-columns: 86px 1fr;
+        column-gap: 12px;
+        row-gap: 8px;
+        margin: 0;
+    }
+
+    dt {
+        color: darken($theme-color, 15%);
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+    dd {
+        margin: 0;
+        line-height: 1.5;
+    }
+}
+
+.section-intro {
+    margin-bottom: 20px;
+    color: $text-color;
+    font-size: 15px;
+}
+
+.scope-grid,
+.competency-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px 22px;
+}
+
+.scope-item {
+    h3 {
+        margin: 0 0 5px;
+        color: $text-color;
+        font-size: 15px;
+    }
+
+    p {
+        margin: 0;
+    }
+}
+
+.career-timeline {
+    padding-left: 18px;
+    border-left: 3px solid lighten($theme-color, 25%);
+}
+
+.career-step {
+    position: relative;
+    margin-bottom: 22px;
+
+    &:before {
+        position: absolute;
+        top: 3px;
+        left: -25px;
+        width: 11px;
+        height: 11px;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        background: $theme-color;
+        content: "";
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    h3 {
+        margin: 0 0 3px;
+        color: $text-color;
+        font-size: 16px;
+    }
+
+    p {
+        margin: 6px 0 0;
+    }
+}
+
+.career-focus {
+    color: $text-grey;
+    font-weight: 500;
+}
+
+.industry-line {
+    margin-top: 22px;
+    padding: 12px 14px;
+    background: $smoky-white;
+    color: darken($theme-color, 15%);
+    font-weight: 500;
+    text-align: center;
+}
+
+.competency-group {
+    h3 {
+        margin: 0 0 10px;
+        color: $text-color;
+        font-size: 15px;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+        margin: 0 4px 6px 0;
+        padding: 4px 8px;
+        border-radius: 2px;
+        background: $smoky-white;
+        color: $text-color-secondary;
+        font-size: 12px;
     }
 }
 

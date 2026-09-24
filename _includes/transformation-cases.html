@@ -1,0 +1,30 @@
+{% assign section = locale.transformation_cases %}
+{% if section %}
+<section class="section transformation-cases-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-cogs fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ section.title }}
+  </h2>
+
+  <div class="case-list">
+    {% for item in section.items %}
+    <article class="case-item">
+      <h3>{{ item.title }}</h3>
+      <dl>
+        <dt>{{ locale.labels.challenge }}</dt>
+        <dd>{{ item.challenge }}</dd>
+        <dt>{{ locale.labels.role }}</dt>
+        <dd>{{ item.role }}</dd>
+        <dt>{{ locale.labels.solution }}</dt>
+        <dd>{{ item.solution }}</dd>
+        <dt>{{ locale.labels.result }}</dt>
+        <dd>{{ item.result }}</dd>
+      </dl>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

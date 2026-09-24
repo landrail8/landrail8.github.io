@@ -1,0 +1,24 @@
+{% assign section = locale.value_proposition %}
+{% if section %}
+<section class="section value-proposition-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-bullseye fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ section.title }}
+  </h2>
+
+  <div class="value-lead">{{ section.lead | markdownify }}</div>
+  <div class="value-summary">{{ section.summary | markdownify }}</div>
+
+  <div class="cv-stats">
+    {% for stat in section.stats %}
+    <div class="cv-stat">
+      <div class="cv-stat-value">{{ stat.value }}</div>
+      <div class="cv-stat-label">{{ stat.label }}</div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

@@ -24,6 +24,25 @@
         margin-bottom: 0;
     }
 
+    .cv-stats {
+        flex-direction: column;
+    }
+
+    .cv-card-grid,
+    .scope-grid,
+    .competency-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .case-item dl {
+        grid-template-columns: 1fr;
+        row-gap: 4px;
+    }
+
+    .case-item dd {
+        margin-bottom: 8px;
+    }
+
 
 }
 /* Small devices (tablets, 768px and up) */

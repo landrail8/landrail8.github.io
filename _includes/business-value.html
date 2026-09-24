@@ -1,0 +1,22 @@
+{% assign section = locale.business_value %}
+{% if section %}
+<section class="section business-value-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-handshake fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ section.title }}
+  </h2>
+
+  <div class="cv-card-grid">
+    {% for item in section.items %}
+    <article class="cv-card value-card">
+      <i class="fas fa-{{ item.icon }} cv-card-icon" aria-hidden="true"></i>
+      <h3>{{ item.title }}</h3>
+      <p>{{ item.details }}</p>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

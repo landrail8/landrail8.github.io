@@ -1,0 +1,215 @@
+---
+meta:
+  title: Aleksandr Shurygin — IT Director | IT Business Partner | Automation Project Manager
+  description: IT Director and automation project leader with hands-on business transformation experience
+labels:
+  choose_language: Choose language
+  languages: Languages
+  interests: Interests
+  challenge: Challenge
+  role: My role
+  solution: Solution
+  result: Result
+sidebar:
+  about: false
+  education: false
+  name: Aleksandr Shurygin
+  tagline: |-
+    IT Director
+    IT Business Partner
+    Automation Project Manager
+  avatar: profile.png
+  email: konotop999@gmail.com
+  website: landrail8.github.io/en/
+  linkedin: alexshur
+  github: landrail8
+  languages:
+  - id: russian
+    idiom: Russian
+    level: Native
+  - id: english
+    idiom: English
+    level: Intermediate
+  interests:
+  - id: tennis
+    item: Tennis
+  - id: tourism
+    item: Tourism
+  - id: swimming
+    item: Swimming
+  - id: reading
+    item: Reading
+value_proposition:
+  title: Business Value
+  lead: 'I have more than 20 years of experience in business automation, including over 10 years leading IT projects. I progressed from software developer to IT director and have worked with companies in engineering, manufacturing, construction, finance, media, and consulting.
+
+'
+  summary: |
+    I currently lead the digital transformation of a manufacturing holding company: developing and implementing its IT strategy, planning and controlling the IT budget, and managing several projects with internal teams, vendors, and consultants.
+
+    I connect business needs, process change, and technical delivery — from requirements definition through implementation, user training, and ongoing support.
+  stats:
+  - id: automation
+    value: 20+
+    label: years in business automation
+  - id: leadership
+    value: 10+
+    label: years leading IT projects
+  - id: career
+    value: Developer → IT Director
+    label: professional journey
+business_value:
+  title: How I Create Value
+  items:
+  - id: diagnose
+    icon: search
+    title: Identify Operational Losses
+    details: I analyze processes, data, and constraints to uncover manual work, gaps between departments, and causes of limited management visibility.
+  - id: design
+    icon: lightbulb
+    title: Design the Solution
+    details: I translate business goals into requirements, performance indicators, and a portfolio of IT initiatives. I define priorities, roles, processes, and expected outcomes.
+  - id: deliver
+    icon: tasks
+    title: Deliver Adoption
+    details: I coordinate internal teams, vendors, and consultants. I lead projects from problem definition through launch, user training, and ongoing support.
+  - id: manage
+    icon: chart-line
+    title: Build Management Tools
+    details: I define KPIs for departments and employees, management reporting, and dashboards, giving executives reliable data for decision-making.
+results:
+  title: Key Results
+  items:
+  - id: proposal
+    metric: 15 minutes
+    before: 'Previously: 4 hours to 1 day'
+    title: Commercial Proposal Preparation
+    details: Implemented location-based inventory management and redesigned the process for working with stock balances and product alternatives.
+  - id: order-import
+    metric: Excel → ERP
+    title: Self-Service Customer Request Upload
+    details: Automated product matching and transfer of deal calculations into orders. Sales managers now complete the operation without a separate employee.
+  - id: data-model
+    metric: Unified Data Environment
+    title: Management Based on 1C ERP
+    details: Unified supply, warehouse, manufacturing, and sales data. Implemented role-based access, reporting, and dashboards.
+  - id: ai
+    metric: AI in Operations
+    title: Information Workflow Automation
+    details: Implemented meeting transcription, a Telegram bot for customer responses and lead qualification, and contract analysis against defined criteria.
+transformation_cases:
+  title: Transformation Projects
+  items:
+  - id: holding
+    title: Digital Transformation of a Manufacturing Holding
+    challenge: Connect business goals, departmental processes, and fragmented IT initiatives.
+    role: IT strategy, budgeting, project portfolio, requirements, and coordination of implementation teams and consultants.
+    solution: 1C ERP, a unified data model, documented processes and roles, management reporting, KPIs, and project analytics.
+    result: The business gains a unified information environment and transparent indicators for operational management.
+  - id: sales-warehouse
+    title: Sales and Warehouse Automation
+    challenge: Accelerate deal calculations and improve inventory visibility.
+    role: Process analysis, requirements definition, implementation coordination, and rollout of the new operating model.
+    solution: Location-based inventory management, product alternatives, customer request import, and automated product matching.
+    result: Commercial proposal preparation was reduced from 4 hours to 1 day down to 15 minutes.
+  - id: crm-ai
+    title: CRM and Intelligent Automation
+    challenge: Reduce manual work with customer requests, meetings, and documents.
+    role: Identify practical use cases, design processes, and implement supporting tools.
+    solution: Bitrix24 workflows, Telegram bots, lead qualification, meeting transcription, and contract review.
+    result: Information is processed faster and employees follow consistent operating rules.
+management_scope:
+  title: Management Scope
+  intro: I connect strategy, business processes, delivery teams, and technical implementation.
+  items:
+  - id: strategy
+    title: Strategy and Budget
+    details: IT strategy development and execution, IT budget planning and control.
+  - id: portfolio
+    title: Project Portfolio
+    details: Initiative prioritization and management of several concurrent projects.
+  - id: partnership
+    title: Business Partnership
+    details: Collaboration with department heads, requirements definition, and agreement on expected outcomes.
+  - id: teams
+    title: Teams and Vendors
+    details: Coordination of internal specialists, implementation teams, vendors, and consultants.
+  - id: change
+    title: Change Delivery
+    details: Process and role design, user training, adoption control, and ongoing support.
+  - id: analytics
+    title: Data and KPIs
+    details: Management reporting, dashboards, and performance indicators for departments, employees, and projects.
+career_path:
+  title: Career Journey
+  intro: My technical background helps me assess feasibility, while my management experience helps me turn solutions into everyday business practice.
+  items:
+  - id: it-director
+    title: IT Director and IT Business Partner
+    focus: Digital transformation of a manufacturing business
+    details: IT strategy, budgeting, initiative portfolio, process architecture, and management analytics.
+  - id: project-lead
+    title: Automation Project Manager
+    focus: More than 10 years leading IT projects
+    details: ERP, CRM, integrations, reporting, team leadership, and change management.
+  - id: developer
+    title: Developer and Solution Architect
+    focus: Hands-on technical foundation
+    details: Design and development of business systems, integrations, and user interfaces.
+  industries: Engineering · Manufacturing · Construction · Finance · Media · Consulting
+competencies:
+  title: Competencies
+  groups:
+  - id: business
+    title: Business and Management
+    items:
+    - id: it-strategy
+      name: IT Strategy
+    - id: budgeting
+      name: Budgeting
+    - id: portfolio
+      name: Portfolio Management
+    - id: business-analysis
+      name: Business Analysis
+    - id: change-management
+      name: Change Management
+  - id: processes
+    title: Processes and Data
+    items:
+    - id: process-modeling
+      name: Process Modeling
+    - id: roles
+      name: Role Model
+    - id: reporting
+      name: Management Reporting
+    - id: dashboards
+      name: Dashboards
+    - id: kpi
+      name: KPIs
+  - id: systems
+    title: Systems and Automation
+    items:
+    - id: erp
+      name: 1C ERP
+    - id: bitrix
+      name: Bitrix24
+    - id: crm
+      name: CRM
+    - id: integrations
+      name: Integrations
+    - id: ai
+      name: AI Tools
+  - id: technology
+    title: Technical Foundation
+    items:
+    - id: typescript
+      name: TypeScript / JavaScript
+    - id: react
+      name: React / Next.js
+    - id: backend
+      name: Node.js / Clojure
+    - id: database
+      name: PostgreSQL
+    - id: telegram
+      name: Telegram API
+footer: 

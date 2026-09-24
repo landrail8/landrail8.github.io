@@ -1,9 +1,11 @@
-#Update all the sections by editing the data.yml file inside _data folder.
-
-# Site Settings
-title: Alex's Resume
-url: 'https://landrail8.github.io/'
-baseurl: '/' #change it according to your repository name
+title: Aleksandr Shurygin — Full Stack Web Developer
+description: Resume and professional profile of Aleksandr Shurygin
+url: "https://landrail8.github.io"
+baseurl: ""
+default_locale: ru
+locales:
+  - ru
+  - en
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: ceramic # blue turquoise green berry orange ceramic
 
@@ -26,3 +28,14 @@ compress_html: # - http://jch.penibelst.de/
 port: 4000
 host: 0.0.0.0
 safe: false
+
+exclude:
+  - scripts
+  - README.md
+  - .translation-memory
+  - ru/_config.yml
+  - ru/_data
+  - ru/_includes
+  - ru/_layouts
+  - ru/_sass
+  - ru/assets
