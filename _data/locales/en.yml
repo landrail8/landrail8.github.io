@@ -43,7 +43,7 @@ value_proposition:
   title: Business Value
   lead: 'I have more than 20 years of experience in business automation, including over 10 years leading IT projects. I progressed from software developer to IT director and have worked with companies in engineering, manufacturing, construction, finance, media, and consulting.
 
-'
+    '
   summary: |
     I currently lead the digital transformation of a manufacturing holding company: developing and implementing its IT strategy, planning and controlling the IT budget, and managing several projects with internal teams, vendors, and consultants.
 
@@ -212,4 +212,4 @@ competencies:
       name: PostgreSQL
     - id: telegram
       name: Telegram API
-footer: 
+footer:
