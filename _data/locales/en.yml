@@ -43,7 +43,7 @@ value_proposition:
   title: Business Value
   lead: 'I have more than 20 years of experience in business automation, including over 10 years leading IT projects. I progressed from software developer to IT director and have worked with companies in engineering, manufacturing, construction, finance, media, and consulting.
 
-    '
+'
   summary: |
     I currently lead the digital transformation of a manufacturing holding company: developing and implementing its IT strategy, planning and controlling the IT budget, and managing several projects with internal teams, vendors, and consultants.
 
@@ -81,37 +81,52 @@ results:
   title: Key Results
   items:
   - id: proposal
-    metric: 15 minutes
-    before: 'Previously: 4 hours to 1 day'
-    title: Commercial Proposal Preparation
-    details: Implemented location-based inventory management and redesigned the process for working with stock balances and product alternatives.
+    title: Fast Commercial Proposal Preparation
+    metric: 1 day **→** 1 hour
+    effect_title: Impact
+    effects:
+    - Выставляем больше КП
+    - Увеличение продаж
+    - Рост NPS
   - id: order-import
-    metric: Excel → ERP
-    title: Self-Service Customer Request Upload
-    details: Automated product matching and transfer of deal calculations into orders. Sales managers now complete the operation without a separate employee.
+    title: 'Location-Based Warehouse Launch: 12,000 SKUs'
+    metric: XLS → ERP
+    effect_title: Impact
+    effects:
+    - Рост оборачиваемости товаров
+    - Ускорение сборки заказов
+    - Продажа складских остатков
   - id: data-model
-    metric: Unified Data Environment
-    title: Management Based on 1C ERP
-    details: Unified supply, warehouse, manufacturing, and sales data. Implemented role-based access, reporting, and dashboards.
+    title: Unified Data Environment
+    metric: Management Based on 1C ERP
+    effect_title: Impact
+    effects:
+    - Объединил данные по поставкам, складу, производству и продажам
+    - Настроил ролевую модель, отчётность и BI-дашборды
+    - Формирование KPI сотрудников по данным ERP-системы
   - id: ai
-    metric: AI in Operations
-    title: Information Workflow Automation
-    details: Implemented meeting transcription, a Telegram bot for customer responses and lead qualification, and contract analysis against defined criteria.
+    title: AI Transformation
+    metric: AI in Business Processes
+    effect_title: Impact
+    effects:
+    - Протоколирование совещаний, анализ звонков менеджеров
+    - Новый канал продаж через бота-нейропродавца
+    - Корпоративная база знаний с чат-ботом
 transformation_cases:
-  title: Transformation Projects
+  title: Delivered Projects
   items:
   - id: holding
     title: Digital Transformation of a Manufacturing Holding
-    challenge: Connect business goals, departmental processes, and fragmented IT initiatives.
-    role: IT strategy, budgeting, project portfolio, requirements, and coordination of implementation teams and consultants.
-    solution: 1C ERP, a unified data model, documented processes and roles, management reporting, KPIs, and project analytics.
-    result: The business gains a unified information environment and transparent indicators for operational management.
+    challenge: Move all departments into a unified corporate system of record.
+    role: Document current business processes, select the ERP system, plan and organize implementation, assemble the contractor team, and train users.
+    solution: Implement 1C ERP as the unified platform used by every department.
+    result: The business gained a unified information environment and transparent indicators for operational management.
   - id: sales-warehouse
-    title: Sales and Warehouse Automation
-    challenge: Accelerate deal calculations and improve inventory visibility.
-    role: Process analysis, requirements definition, implementation coordination, and rollout of the new operating model.
-    solution: Location-based inventory management, product alternatives, customer request import, and automated product matching.
-    result: Commercial proposal preparation was reduced from 4 hours to 1 day down to 15 minutes.
+    title: Deal Estimation Workspace for Engineers
+    challenge: Accelerate deal estimation and reduce dependence on individual employees' expertise.
+    role: Document the process, develop the technical specification, select and manage contractors, introduce the alpha version into live deal estimation, and train users.
+    solution: Create a dedicated deal estimation workspace that makes maximum use of accumulated customer and supplier data.
+    result: The resulting estimation engine automatically prices up to 80% of the line items in a customer request and provides a convenient interface for calculating every line in the deal.
   - id: crm-ai
     title: CRM and Intelligent Automation
     challenge: Reduce manual work with customer requests, meetings, and documents.

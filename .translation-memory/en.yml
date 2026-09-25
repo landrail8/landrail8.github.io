@@ -118,10 +118,10 @@ entries:
     source_hash: abd9c41a18f0993041ff82c212075fa771931e7e947131edf16ad34175c6ced5
     source: 'Более 20 лет занимаюсь автоматизацией бизнеса, из них более 10 лет — в роли руководителя ИТ-проектов. Прошёл путь от программиста до ИТ-директора, работал с компаниями в инженерии, производстве, строительстве, финансах, медиа и консалтинге.
 
-      '
+'
     translation: 'I have more than 20 years of experience in business automation, including over 10 years leading IT projects. I progressed from software developer to IT director and have worked with companies in engineering, manufacturing, construction, finance, media, and consulting.
 
-      '
+'
     status: approved
   value_proposition.summary:
     source_hash: 72fc9e00d2a12d288d5659a287288a96146c5f8d920261bbe9ef1542d8a44bfe
@@ -215,74 +215,49 @@ entries:
     translation: Key Results
     status: approved
   results.items[id=proposal].metric:
-    source_hash: c4c2c59efde6b628ce7aa5c9b4adb7fc5fa0a88a06ab7b7d1033746ebfce51cb
-    source: 15 минут
-    translation: 15 minutes
-    status: approved
-  results.items[id=proposal].before:
-    source_hash: c45f35c7394bde2c9f23ebcec7df26af263b8d012a69e02c650080617f0dc89f
-    source: 'Было: 4 часа — 1 день'
-    translation: 'Previously: 4 hours to 1 day'
+    source_hash: 023714e36dd8f41916cfa3b1539a4dd6ca5a4209ae7207e37b133ddc92c9d269
+    source: 1 день **→** 1 час
+    translation: 1 day **→** 1 hour
     status: approved
   results.items[id=proposal].title:
-    source_hash: 90bc3165e8666d58536030105b882d9ce1ffc30c04547971e4bc91a871ff65f8
-    source: Подготовка коммерческого предложения
-    translation: Commercial Proposal Preparation
-    status: approved
-  results.items[id=proposal].details:
-    source_hash: 1a5be2fdfeeaecf7f5acf5999463baf0d365685a97c3ef5b77be853cc2e2d4fb
-    source: Внедрил адресный склад и изменил процесс работы с остатками и аналогами товаров.
-    translation: Implemented location-based inventory management and redesigned the process for working with stock balances and product alternatives.
+    source_hash: 60ccdfdfcdb9d74079d6d5235303e92c0c025d3fcceb917a77707eca8cbc1482
+    source: Быстрая подготовка КП
+    translation: Fast Commercial Proposal Preparation
     status: approved
   results.items[id=order-import].metric:
-    source_hash: 2c8dddde09569048208e4631f8cfe0f694ac53cb4074e42b5a22ae1230583f0f
-    source: Excel → ERP
-    translation: Excel → ERP
+    source_hash: a2336c14cb38f83911138afa6ce6009a39f0339b2551e48c15eb9e549fb1ed52
+    source: XLS → ERP
+    translation: XLS → ERP
     status: approved
   results.items[id=order-import].title:
-    source_hash: ecd5fb45c2c59fb77272e9fac532276a082a2482a76d5f583767ea195af1a034
-    source: Самостоятельная загрузка клиентских заявок
-    translation: Self-Service Customer Request Upload
-    status: approved
-  results.items[id=order-import].details:
-    source_hash: 7f2bb1ef385522878c3c7f8834fd1876d4cf67daa3b99ce339cae07af706189f
-    source: Автоматизировал сопоставление номенклатуры и перенос расчёта сделки в заказ. Менеджеры выполняют операцию без участия отдельного сотрудника.
-    translation: Automated product matching and transfer of deal calculations into orders. Sales managers now complete the operation without a separate employee.
+    source_hash: 13ceb7a4afaa15da77d70359051aab37d25182cc48cb7e5c1d1e6d0f41cce18a
+    source: Запуск адресного склада 12000 SKU
+    translation: 'Location-Based Warehouse Launch: 12,000 SKUs'
     status: approved
   results.items[id=data-model].metric:
-    source_hash: ab8087a7bccffa1b011247e8f4be201638bd098de17a4bb850bf7070613bba1b
-    source: Единый контур данных
-    translation: Unified Data Environment
-    status: approved
-  results.items[id=data-model].title:
     source_hash: 8a107849fde8ab35147724c9de69dce7be6f8375f3555950d40b1735c44f3911
     source: Управление на базе 1С ERP
     translation: Management Based on 1C ERP
     status: approved
-  results.items[id=data-model].details:
-    source_hash: d6a37687f5899311f1813f6a83b7f5cbb4a1888e6f374e15f4e58c8512b7ec8e
-    source: Объединил данные по поставкам, складу, производству и продажам. Настроил ролевую модель, отчётность и дашборды.
-    translation: Unified supply, warehouse, manufacturing, and sales data. Implemented role-based access, reporting, and dashboards.
+  results.items[id=data-model].title:
+    source_hash: ab8087a7bccffa1b011247e8f4be201638bd098de17a4bb850bf7070613bba1b
+    source: Единый контур данных
+    translation: Unified Data Environment
     status: approved
   results.items[id=ai].metric:
     source_hash: 35027899f2f9ff60de8df0e4a4270ba86f3117a462491329e9bf2ad3a4ed77a7
     source: ИИ в процессах
-    translation: AI in Operations
+    translation: AI in Business Processes
     status: approved
   results.items[id=ai].title:
-    source_hash: 788ad78c08317832818f109ec4e9b52f504138dce013056b7cb4013e3db67213
-    source: Автоматизация работы с информацией
-    translation: Information Workflow Automation
-    status: approved
-  results.items[id=ai].details:
-    source_hash: 761f123b9f49d155b59479b1d4593156879119bbe96944057704c67ff842f92e
-    source: Внедрял протоколирование совещаний, Telegram-бота для ответов клиентам и квалификации лидов, анализ договоров по заданным критериям.
-    translation: Implemented meeting transcription, a Telegram bot for customer responses and lead qualification, and contract analysis against defined criteria.
+    source_hash: 62b0dde28a5373e60b0da2314ac65ebfc2c519c77a7bf05908499d3129f891d9
+    source: AI-трансформация
+    translation: AI Transformation
     status: approved
   transformation_cases.title:
-    source_hash: 6af1b4d748e8bcba7154cce03f9cba8c1b9b20c5bf08689c96bc5593aed99964
-    source: Проекты трансформации
-    translation: Transformation Projects
+    source_hash: 1db65fa99d004730557f1f15dc23919c503a6d202d1d68f902d4f994a8c96a75
+    source: Реализованные проекты
+    translation: Delivered Projects
     status: approved
   transformation_cases.items[id=holding].title:
     source_hash: 6479e349afc7ebc7283a3399d6fc503a1f327150bf00915d97730d76af80da31
@@ -290,49 +265,49 @@ entries:
     translation: Digital Transformation of a Manufacturing Holding
     status: approved
   transformation_cases.items[id=holding].challenge:
-    source_hash: 53d223a797c9a7205ce1a739192cf4aa8553043c66ff8b226a1fdadf4e755140
-    source: Связать бизнес-цели, процессы подразделений и разрозненные ИТ-инициативы.
-    translation: Connect business goals, departmental processes, and fragmented IT initiatives.
+    source_hash: 143c21a231f7991c5d735f4969d1183dc9ec9dd7e6493f70ed973fa53d94c956
+    source: Перенести работу всех отделов в единую корпоративную систему учёта.
+    translation: Move all departments into a unified corporate system of record.
     status: approved
   transformation_cases.items[id=holding].role:
-    source_hash: 4f89f8a91014037cd82f5c9bc9e56a895ea732b5af395c878c23db840aa60b38
-    source: ИТ-стратегия, бюджет, портфель проектов, требования, координация команд внедрения и консультантов.
-    translation: IT strategy, budgeting, project portfolio, requirements, and coordination of implementation teams and consultants.
+    source_hash: 3aacea83a286b14f666117c89ac5b5296e31e2d7f19d6e314f1be1a9e81c7314
+    source: Описание текущих бизнес-процессов, подбор ERP-системы, планирование и организация внедрения, подбор команды подрядчиков, обучение пользователей.
+    translation: Document current business processes, select the ERP system, plan and organize implementation, assemble the contractor team, and train users.
     status: approved
   transformation_cases.items[id=holding].solution:
-    source_hash: 59d45cd1b2573ded6b112ac62afe15494e135d8d753da8508ca0c1f831c857d7
-    source: 1С ERP, единая модель данных, описание процессов и ролей, управленческая отчётность, KPI и проектная аналитика.
-    translation: 1C ERP, a unified data model, documented processes and roles, management reporting, KPIs, and project analytics.
+    source_hash: ef8766e308df21dbd61c7be2e3d79e8b90ef23a872c3ea29035802cfb466bfb9
+    source: Внедрение 1С ERP как единой платформы, в которой работают все подразделения.
+    translation: Implement 1C ERP as the unified platform used by every department.
     status: approved
   transformation_cases.items[id=holding].result:
-    source_hash: 4dcdb56918f94e6fc58164f3174218372b665d608e86cec8848047c77a27550f
-    source: Бизнес получает единый информационный контур и прозрачные показатели для управления операционной деятельностью.
-    translation: The business gains a unified information environment and transparent indicators for operational management.
+    source_hash: 72f8427a370c714b44a0cffc869c763dc0f30e9ac30284d05231243c9a76c18c
+    source: Бизнес получил единый информационный контур и прозрачные показатели для управления операционной деятельностью.
+    translation: The business gained a unified information environment and transparent indicators for operational management.
     status: approved
   transformation_cases.items[id=sales-warehouse].title:
-    source_hash: 81653e7670ec415dde78873b0df6d9d2fe34cd73e45f4e40f9a69f2338080081
-    source: Автоматизация продаж и складских операций
-    translation: Sales and Warehouse Automation
+    source_hash: bebe9c540990e2884c004dd8982d0bb7302bc5bfcbe6ee22e5cc7f7c7f4fa506
+    source: Рабочее место инженера по расчёту сделки
+    translation: Deal Estimation Workspace for Engineers
     status: approved
   transformation_cases.items[id=sales-warehouse].challenge:
-    source_hash: 36a625e09d1fb0bbfebd1deb03a93932cf69f168929f1f38312da37c8065b940
-    source: Ускорить расчёт сделок и повысить прозрачность остатков.
-    translation: Accelerate deal calculations and improve inventory visibility.
+    source_hash: 31bbeab4239c29223d0ea47825695b863d1accc9ae0a44372cd9a1e10d9f8e8f
+    source: Ускорить расчёт сделок, снизить зависимость от квалификации исполнителей.
+    translation: Accelerate deal estimation and reduce dependence on individual employees' expertise.
     status: approved
   transformation_cases.items[id=sales-warehouse].role:
-    source_hash: c33431b407463ea627cfc3220da918b5113dccdd10df124ea3dadcfb40e391d9
-    source: Анализ процесса, постановка требований, координация реализации и внедрение нового порядка работы.
-    translation: Process analysis, requirements definition, implementation coordination, and rollout of the new operating model.
+    source_hash: cc544f50e28f152bba80d5c65c191612432c5f9990e8de213fcb250b5783bbc2
+    source: Описание процесса, разработка технического задания, выбор и организация работы с подрядчиками, внедрение начиная с альфа-версии в реальный расчёт сделок, обучение пользователей.
+    translation: Document the process, develop the technical specification, select and manage contractors, introduce the alpha version into live deal estimation, and train users.
     status: approved
   transformation_cases.items[id=sales-warehouse].solution:
-    source_hash: cee88805c6e785e4e0e0984ef1ea39538585b8b1e1d8c7002a0e12308590a91f
-    source: Адресный склад, работа с аналогами, импорт клиентских заявок и автоматическое сопоставление номенклатуры.
-    translation: Location-based inventory management, product alternatives, customer request import, and automated product matching.
+    source_hash: 1b191b723c4a3384c48e110df73efd87d82456148e5586fa31b8efc2594d7565
+    source: Создать рабочее место по расчёту сделок. Максимально использовать накопленную информацию по работе с клиентами и поставщиками при расчёте.
+    translation: Create a dedicated deal estimation workspace that makes maximum use of accumulated customer and supplier data.
     status: approved
   transformation_cases.items[id=sales-warehouse].result:
-    source_hash: 5cd86bd4a66d544a62c773e4b5e09b82031986ca4f3a3c19e5d2907c59e740df
-    source: Время подготовки коммерческого предложения сократилось с 4 часов — 1 дня до 15 минут.
-    translation: Commercial proposal preparation was reduced from 4 hours to 1 day down to 15 minutes.
+    source_hash: f5c7586355a2a2654d402b52b3ce39e10c3c61b2174b6f7785d723ff7ab538e8
+    source: Создан механизм расчёта сделки, который позволяет автоматически расценивать до 80% позиций в запросе покупателя. Удобный интерфейс для расчёта всех строк сделки.
+    translation: The resulting estimation engine automatically prices up to 80% of the line items in a customer request and provides a convenient interface for calculating every line in the deal.
     status: approved
   transformation_cases.items[id=crm-ai].title:
     source_hash: 92968d9568d0f6dd4729211fc806765591dc725d9ccce6f5b3b90ac32a419ec8
@@ -618,4 +593,84 @@ entries:
     source_hash: 41e6ca7bef704dc0076d07f6baef63ddbaef354c3ef28c7482111fdd3b451a48
     source: 1C ERP
     translation: 1C ERP
+    status: approved
+  results.items[id=proposal].effect_title:
+    source_hash: e39133631f6b970bca735a418dd6b6d72fff86e46fe110f15f7951c7bc02ba0f
+    source: Эффект
+    translation: Impact
+    status: approved
+  results.items[id=proposal].effects[0]:
+    source_hash: 05d0f3aba8900d6588dc24d5528e8e71b657db1995c229eaa6822ffb05d05c35
+    source: Выставляем больше КП
+    translation: More commercial proposals issued
+    status: approved
+  results.items[id=proposal].effects[1]:
+    source_hash: 14405ee8f934135ee7f6e8db4a07a7aad8169ff06186eabaf29c3f3e238bb244
+    source: Увеличение продаж
+    translation: Increased sales
+    status: approved
+  results.items[id=proposal].effects[2]:
+    source_hash: 956dd48373a60e1d8dd60ef77aa3e8a234add51dc56f2ffbaf66b5f2b02b269d
+    source: Рост NPS
+    translation: Higher NPS
+    status: approved
+  results.items[id=order-import].effect_title:
+    source_hash: e39133631f6b970bca735a418dd6b6d72fff86e46fe110f15f7951c7bc02ba0f
+    source: Эффект
+    translation: Impact
+    status: approved
+  results.items[id=order-import].effects[0]:
+    source_hash: 7de69c73708f2ced2c20dd0e586ee514e9d885bbd29c60fa5ba802a77078f933
+    source: Рост оборачиваемости товаров
+    translation: Higher inventory turnover
+    status: approved
+  results.items[id=order-import].effects[1]:
+    source_hash: b67df84e0c65d71c41154a89677dcd92e542aca8afb78993c64c089cea503140
+    source: Ускорение сборки заказов
+    translation: Faster order picking
+    status: approved
+  results.items[id=order-import].effects[2]:
+    source_hash: 7a10e602c3d55140ceb8a449dfd051c86f64d199b9074f140115af4b6a01c95b
+    source: Продажа складских остатков
+    translation: Faster sell-through of existing inventory
+    status: approved
+  results.items[id=data-model].effect_title:
+    source_hash: e39133631f6b970bca735a418dd6b6d72fff86e46fe110f15f7951c7bc02ba0f
+    source: Эффект
+    translation: Impact
+    status: approved
+  results.items[id=data-model].effects[0]:
+    source_hash: e5d147e0b51b38f0230861012fe3c26d92ecd34a87088a191c91b4b7fb0414ca
+    source: Объединил данные по поставкам, складу, производству и продажам
+    translation: Unified supply, warehouse, manufacturing, and sales data
+    status: approved
+  results.items[id=data-model].effects[1]:
+    source_hash: 3d9708133b8fc3df120e83758f678919638d785c340f31fce167dd13376a378d
+    source: Настроил ролевую модель, отчётность и BI-дашборды
+    translation: Implemented a role model, reporting, and BI dashboards
+    status: approved
+  results.items[id=data-model].effects[2]:
+    source_hash: 9c863e272d4bfe005a0c86dde5c4fe7260cf5ea02174dece5d0f04dd4de2585f
+    source: Формирование KPI сотрудников по данным ERP-системы
+    translation: Generated employee KPIs from ERP data
+    status: approved
+  results.items[id=ai].effect_title:
+    source_hash: e39133631f6b970bca735a418dd6b6d72fff86e46fe110f15f7951c7bc02ba0f
+    source: Эффект
+    translation: Impact
+    status: approved
+  results.items[id=ai].effects[0]:
+    source_hash: eecaeab142a79bc585ece68af667c10476a20119b98fb9955fe68675d1193ba8
+    source: Протоколирование совещаний, анализ звонков менеджеров
+    translation: Automated meeting minutes and sales call analysis
+    status: approved
+  results.items[id=ai].effects[1]:
+    source_hash: 2f38b4d15d6eaf63aef588f7316c7e01e9b690e1bcfce0f4010daff026a12ad0
+    source: Новый канал продаж через бота-нейропродавца
+    translation: Created a new sales channel with an AI sales bot
+    status: approved
+  results.items[id=ai].effects[2]:
+    source_hash: 5d73b3274fdb7290ed113ba40583de33962ea582712d6373fade4c08c73e9111
+    source: Корпоративная база знаний с чат-ботом
+    translation: Built a corporate knowledge base with a chatbot
     status: approved

@@ -36,4 +36,14 @@
        -webkit-print-color-adjust: exact; 
     }
 
+    .main-wrapper .section-title {
+        break-after: avoid-page;
+        page-break-after: avoid;
+    }
+
+    .management-scope-section {
+        break-before: page;
+        page-break-before: always;
+    }
+
 }

@@ -350,6 +350,42 @@ p {
     font-size: 12px;
 }
 
+.result-card-impact {
+    h3 {
+        margin-bottom: 8px;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .result-metric {
+        font-size: 15px;
+        line-height: 1.35;
+    }
+}
+
+.result-metric-flow {
+    p {
+        margin: 0;
+    }
+}
+
+.result-effect-title {
+    margin: 14px 0 6px;
+    color: darken($theme-color, 15%);
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.result-effects {
+    margin: 0;
+    padding-left: 18px;
+
+    li {
+        margin-bottom: 3px;
+    }
+}
+
 .case-item {
     margin-bottom: 20px;
     padding: 20px 20px 16px;
