@@ -21,6 +21,13 @@
       <a href="{{ '/en/' | relative_url }}" lang="en"{% if page.lang == 'en' %} aria-current="page"{% endif %}>EN</a>
     </nav>
 
+    {% if page.lang == 'ru' and sidebar.pdf_download %}
+    <a class="pdf-download" href="{{ sidebar.pdf_download.link | relative_url }}" download>
+      <i class="fas fa-file-pdf" aria-hidden="true"></i>
+      {{ sidebar.pdf_download.label }}
+    </a>
+    {% endif %}
+
   </div><!--//profile-container-->
 
   {% include contact.html %}

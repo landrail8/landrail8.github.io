@@ -20,6 +20,9 @@ sidebar:
     ИТ-бизнес-партнёр
     Руководитель проектов автоматизации
   avatar: profile.png
+  pdf_download:
+    label: Скачать в формате PDF
+    link: /output/pdf/Aleksandr-Shurygin-CV-RU.pdf
   email: konotop999@gmail.com
   website: landrail8.github.io/ru/
   linkedin: alexshur

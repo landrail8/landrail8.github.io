@@ -118,10 +118,10 @@ entries:
     source_hash: abd9c41a18f0993041ff82c212075fa771931e7e947131edf16ad34175c6ced5
     source: 'Более 20 лет занимаюсь автоматизацией бизнеса, из них более 10 лет — в роли руководителя ИТ-проектов. Прошёл путь от программиста до ИТ-директора, работал с компаниями в инженерии, производстве, строительстве, финансах, медиа и консалтинге.
 
-      '
+'
     translation: 'I have more than 20 years of experience in business automation, including over 10 years leading IT projects. I progressed from software developer to IT director and have worked with companies in engineering, manufacturing, construction, finance, media, and consulting.
 
-      '
+'
     status: approved
   value_proposition.summary:
     source_hash: 72fc9e00d2a12d288d5659a287288a96146c5f8d920261bbe9ef1542d8a44bfe
@@ -673,4 +673,9 @@ entries:
     source_hash: 5d73b3274fdb7290ed113ba40583de33962ea582712d6373fade4c08c73e9111
     source: Корпоративная база знаний с чат-ботом
     translation: Built a corporate knowledge base with a chatbot
+    status: approved
+  sidebar.pdf_download.label:
+    source_hash: 1286fba260fcdf29877e7e9ec14f65baa134d6a8dcb9b91c9f91d848afe7c599
+    source: Скачать в формате PDF
+    translation: Download as PDF
     status: approved

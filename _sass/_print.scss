@@ -31,6 +31,10 @@
        display: none;
     }
 
+    .pdf-download {
+        display: none !important;
+    }
+
     .skillset .level-bar-inner {
        background-color: black !important;
        -webkit-print-color-adjust: exact; 

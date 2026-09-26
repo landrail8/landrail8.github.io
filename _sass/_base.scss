@@ -89,6 +89,28 @@ p {
             color: rgba(255, 255, 255, 0.4);
         }
     }
+
+    .pdf-download {
+        display: inline-flex;
+        align-items: center;
+        gap: 7px;
+        margin-top: 18px;
+        padding: 8px 12px;
+        border: 1px solid rgba(255, 255, 255, 0.45);
+        border-radius: 3px;
+        color: #fff;
+        font-size: 13px;
+        font-weight: 500;
+        text-decoration: none;
+
+        &:hover,
+        &:focus {
+            border-color: #fff;
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+
     .profile {
         margin-bottom: 15px;
     }
