@@ -110,18 +110,18 @@ entries:
     translation: Result
     status: approved
   value_proposition.title:
-    source_hash: '078c9734a0390c178768c7a7cd8704c703f6bff8fc965f253d1a8ae43110e42d'
-    source: Ценность для бизнеса
-    translation: Business Value
+    source_hash: e36d0b6a05e2127b5c7de47ffcf3410ecfe7b0dbd757ed943e5b66c0f5a5521a
+    source: Профессиональный профиль
+    translation: Professional Profile
     status: approved
   value_proposition.lead:
     source_hash: abd9c41a18f0993041ff82c212075fa771931e7e947131edf16ad34175c6ced5
     source: 'Более 20 лет занимаюсь автоматизацией бизнеса, из них более 10 лет — в роли руководителя ИТ-проектов. Прошёл путь от программиста до ИТ-директора, работал с компаниями в инженерии, производстве, строительстве, финансах, медиа и консалтинге.
 
-      '
+'
     translation: 'I have more than 20 years of experience in business automation, including over 10 years leading IT projects. I progressed from software developer to IT director and have worked with companies in engineering, manufacturing, construction, finance, media, and consulting.
 
-      '
+'
     status: approved
   value_proposition.summary:
     source_hash: 72fc9e00d2a12d288d5659a287288a96146c5f8d920261bbe9ef1542d8a44bfe
@@ -602,17 +602,17 @@ entries:
   results.items[id=proposal].effects[0]:
     source_hash: 05d0f3aba8900d6588dc24d5528e8e71b657db1995c229eaa6822ffb05d05c35
     source: Выставляем больше КП
-    translation: More commercial proposals issued
+    translation: Выставляем больше КП
     status: approved
   results.items[id=proposal].effects[1]:
     source_hash: 14405ee8f934135ee7f6e8db4a07a7aad8169ff06186eabaf29c3f3e238bb244
     source: Увеличение продаж
-    translation: Increased sales
+    translation: Увеличение продаж
     status: approved
   results.items[id=proposal].effects[2]:
     source_hash: 956dd48373a60e1d8dd60ef77aa3e8a234add51dc56f2ffbaf66b5f2b02b269d
     source: Рост NPS
-    translation: Higher NPS
+    translation: Рост NPS
     status: approved
   results.items[id=order-import].effect_title:
     source_hash: e39133631f6b970bca735a418dd6b6d72fff86e46fe110f15f7951c7bc02ba0f
@@ -622,17 +622,17 @@ entries:
   results.items[id=order-import].effects[0]:
     source_hash: 7de69c73708f2ced2c20dd0e586ee514e9d885bbd29c60fa5ba802a77078f933
     source: Рост оборачиваемости товаров
-    translation: Higher inventory turnover
+    translation: Рост оборачиваемости товаров
     status: approved
   results.items[id=order-import].effects[1]:
     source_hash: b67df84e0c65d71c41154a89677dcd92e542aca8afb78993c64c089cea503140
     source: Ускорение сборки заказов
-    translation: Faster order picking
+    translation: Ускорение сборки заказов
     status: approved
   results.items[id=order-import].effects[2]:
     source_hash: 7a10e602c3d55140ceb8a449dfd051c86f64d199b9074f140115af4b6a01c95b
     source: Продажа складских остатков
-    translation: Faster sell-through of existing inventory
+    translation: Продажа складских остатков
     status: approved
   results.items[id=data-model].effect_title:
     source_hash: e39133631f6b970bca735a418dd6b6d72fff86e46fe110f15f7951c7bc02ba0f
@@ -642,17 +642,17 @@ entries:
   results.items[id=data-model].effects[0]:
     source_hash: e5d147e0b51b38f0230861012fe3c26d92ecd34a87088a191c91b4b7fb0414ca
     source: Объединил данные по поставкам, складу, производству и продажам
-    translation: Unified supply, warehouse, manufacturing, and sales data
+    translation: Объединил данные по поставкам, складу, производству и продажам
     status: approved
   results.items[id=data-model].effects[1]:
     source_hash: 3d9708133b8fc3df120e83758f678919638d785c340f31fce167dd13376a378d
     source: Настроил ролевую модель, отчётность и BI-дашборды
-    translation: Implemented a role model, reporting, and BI dashboards
+    translation: Настроил ролевую модель, отчётность и BI-дашборды
     status: approved
   results.items[id=data-model].effects[2]:
     source_hash: 9c863e272d4bfe005a0c86dde5c4fe7260cf5ea02174dece5d0f04dd4de2585f
     source: Формирование KPI сотрудников по данным ERP-системы
-    translation: Generated employee KPIs from ERP data
+    translation: Формирование KPI сотрудников по данным ERP-системы
     status: approved
   results.items[id=ai].effect_title:
     source_hash: e39133631f6b970bca735a418dd6b6d72fff86e46fe110f15f7951c7bc02ba0f
@@ -662,15 +662,15 @@ entries:
   results.items[id=ai].effects[0]:
     source_hash: eecaeab142a79bc585ece68af667c10476a20119b98fb9955fe68675d1193ba8
     source: Протоколирование совещаний, анализ звонков менеджеров
-    translation: Automated meeting minutes and sales call analysis
+    translation: Протоколирование совещаний, анализ звонков менеджеров
     status: approved
   results.items[id=ai].effects[1]:
     source_hash: 2f38b4d15d6eaf63aef588f7316c7e01e9b690e1bcfce0f4010daff026a12ad0
     source: Новый канал продаж через бота-нейропродавца
-    translation: Created a new sales channel with an AI sales bot
+    translation: Новый канал продаж через бота-нейропродавца
     status: approved
   results.items[id=ai].effects[2]:
     source_hash: 5d73b3274fdb7290ed113ba40583de33962ea582712d6373fade4c08c73e9111
     source: Корпоративная база знаний с чат-ботом
-    translation: Built a corporate knowledge base with a chatbot
+    translation: Корпоративная база знаний с чат-ботом
     status: approved
