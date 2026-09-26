@@ -43,7 +43,7 @@ value_proposition:
   title: Professional Profile
   lead: 'I have more than 20 years of experience in business automation, including over 10 years leading IT projects. I progressed from software developer to IT director and have worked with companies in engineering, manufacturing, construction, finance, media, and consulting.
 
-    '
+'
   summary: |
     I currently lead the digital transformation of a manufacturing holding company: developing and implementing its IT strategy, planning and controlling the IT budget, and managing several projects with internal teams, vendors, and consultants.
 
@@ -85,33 +85,33 @@ results:
     metric: 1 day **→** 1 hour
     effect_title: Impact
     effects:
-    - Выставляем больше КП
-    - Увеличение продаж
-    - Рост NPS
+    - More commercial proposals issued
+    - Increased sales
+    - Higher NPS
   - id: order-import
     title: 'Location-Based Warehouse Launch: 12,000 SKUs'
     metric: XLS → ERP
     effect_title: Impact
     effects:
-    - Рост оборачиваемости товаров
-    - Ускорение сборки заказов
-    - Продажа складских остатков
+    - Higher inventory turnover
+    - Faster order picking
+    - Faster sell-through of existing inventory
   - id: data-model
     title: Unified Data Environment
     metric: Management Based on 1C ERP
     effect_title: Impact
     effects:
-    - Объединил данные по поставкам, складу, производству и продажам
-    - Настроил ролевую модель, отчётность и BI-дашборды
-    - Формирование KPI сотрудников по данным ERP-системы
+    - Unified supply, warehouse, manufacturing, and sales data
+    - Implemented a role model, reporting, and BI dashboards
+    - Generated employee KPIs from ERP data
   - id: ai
     title: AI Transformation
     metric: AI in Business Processes
     effect_title: Impact
     effects:
-    - Протоколирование совещаний, анализ звонков менеджеров
-    - Новый канал продаж через бота-нейропродавца
-    - Корпоративная база знаний с чат-ботом
+    - Automated meeting minutes and sales call analysis
+    - Created a new sales channel with an AI sales bot
+    - Built a corporate knowledge base with a chatbot
 transformation_cases:
   title: Delivered Projects
   items:

@@ -84,6 +84,9 @@ def replace_translations(value, translations, path = [])
     value.each_with_index.map do |child, index|
       replace_translations(child, translations, path + [segment_for(child, index)])
     end
+  when String
+    lookup = path.join(".").gsub(".[", "[")
+    translations.fetch(lookup, value)
   else
     value
   end
