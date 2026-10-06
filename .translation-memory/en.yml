@@ -79,16 +79,6 @@ entries:
     source: landrail8.github.io/ru/
     translation: landrail8.github.io/en/
     status: approved
-  sidebar.languages[id=russian].level:
-    source_hash: 472bd1afc9df07a1c88cd836dbac8c64dae6c4712caeb39a4eaa49be2c9b5158
-    source: Родной язык
-    translation: Native
-    status: approved
-  sidebar.languages[id=english].level:
-    source_hash: e4578006525870173c2b5e51e3080e730c40594e7e3d6ed635c88da5cade2854
-    source: Средний уровень
-    translation: Intermediate
-    status: approved
   labels.challenge:
     source_hash: b9ce27191d406d71bbd93e9ec6d360836a5b90e1577aca061e30adbbf8dc919e
     source: Задача
@@ -118,10 +108,10 @@ entries:
     source_hash: abd9c41a18f0993041ff82c212075fa771931e7e947131edf16ad34175c6ced5
     source: 'Более 20 лет занимаюсь автоматизацией бизнеса, из них более 10 лет — в роли руководителя ИТ-проектов. Прошёл путь от программиста до ИТ-директора, работал с компаниями в инженерии, производстве, строительстве, финансах, медиа и консалтинге.
 
-      '
+'
     translation: 'I have more than 20 years of experience in business automation, including over 10 years leading IT projects. I progressed from software developer to IT director and have worked with companies in engineering, manufacturing, construction, finance, media, and consulting.
 
-      '
+'
     status: approved
   value_proposition.summary:
     source_hash: 72fc9e00d2a12d288d5659a287288a96146c5f8d920261bbe9ef1542d8a44bfe
@@ -308,31 +298,6 @@ entries:
     source_hash: f5c7586355a2a2654d402b52b3ce39e10c3c61b2174b6f7785d723ff7ab538e8
     source: Создан механизм расчёта сделки, который позволяет автоматически расценивать до 80% позиций в запросе покупателя. Удобный интерфейс для расчёта всех строк сделки.
     translation: The resulting estimation engine automatically prices up to 80% of the line items in a customer request and provides a convenient interface for calculating every line in the deal.
-    status: approved
-  transformation_cases.items[id=crm-ai].title:
-    source_hash: 92968d9568d0f6dd4729211fc806765591dc725d9ccce6f5b3b90ac32a419ec8
-    source: CRM и интеллектуальная автоматизация
-    translation: CRM and Intelligent Automation
-    status: approved
-  transformation_cases.items[id=crm-ai].challenge:
-    source_hash: 79cc9b8a9d0206b9bcf905923dbb224567b0d7d366f1eb0a68d15cab88aecdce
-    source: Сократить ручную работу с обращениями, встречами и документами.
-    translation: Reduce manual work with customer requests, meetings, and documents.
-    status: approved
-  transformation_cases.items[id=crm-ai].role:
-    source_hash: a85d98126edb9b5dddc16448e2a30a092719754fa7b2e6377b2500455cb4aea7
-    source: Поиск прикладных сценариев, проектирование процессов и внедрение инструментов.
-    translation: Identify practical use cases, design processes, and implement supporting tools.
-    status: approved
-  transformation_cases.items[id=crm-ai].solution:
-    source_hash: f5b28a68e76d5eeacca8a62fdbce6f0a582140cc8920518af7f59943ecdcdefe
-    source: Процессы в Битрикс24, Telegram-боты, квалификация лидов, протоколирование встреч и проверка договоров.
-    translation: Bitrix24 workflows, Telegram bots, lead qualification, meeting transcription, and contract review.
-    status: approved
-  transformation_cases.items[id=crm-ai].result:
-    source_hash: 04ab3812949ed95f7cb431c5297956120037a710cfc6f8559340bd620452a13c
-    source: Быстрее обрабатывается информация, а сотрудники работают по единым правилам.
-    translation: Information is processed faster and employees follow consistent operating rules.
     status: approved
   management_scope.title:
     source_hash: 4880a8765d81e7d47cc2c729241071648003d01e3402d30b8605fb8ec0e86df1
@@ -678,4 +643,114 @@ entries:
     source_hash: 1286fba260fcdf29877e7e9ec14f65baa134d6a8dcb9b91c9f91d848afe7c599
     source: Скачать в формате PDF
     translation: Download as PDF
+    status: approved
+  results.items[id=ai].effects[3]:
+    source_hash: 03e74d22108e3361d5ec75ebd9010727746e09c4619384298bca6f93d30fd322
+    source: Автоматический разбор входящей почты
+    translation: Automated incoming email processing
+    status: approved
+  transformation_cases.items[id=tender-workspace].title:
+    source_hash: 9a43aafabc14c4891cce34ed6fee659a5015e7772a0cb176a37bb65b331b1e43
+    source: Рабочее место тендерного специалиста
+    translation: Tender Specialist Workspace
+    status: approved
+  transformation_cases.items[id=tender-workspace].challenge:
+    source_hash: bd374973bacca0fa935371efeeab29164a8cde2e4024cb93310ffe130ec7a23e
+    source: Увеличить наполняемость тендерной воронки, автоматизировать получение номенклатуры из приложенной документации.
+    translation: Expand the tender pipeline and automate the extraction of product line items from attached documentation.
+    status: approved
+  transformation_cases.items[id=tender-workspace].role:
+    source_hash: 2938ca990402ca4bc2bd7c0c86ffd8094d4a7a624f29513d47210239f7ac07e3
+    source: Описание процесса, разработка технического задания, выбор и организация работы с подрядчиками, внедрение, обучение пользователей.
+    translation: Document the process, develop the technical specification, select and manage contractors, implement the solution, and train users.
+    status: approved
+  transformation_cases.items[id=tender-workspace].solution:
+    source_hash: 0e0a4815d3e31d051e7eadcd1efbec927cc6813522f63f27eba051de710111c9
+    source: Создать рабочее место в виде web-кабинета. Обучить пользователей искать тендеры по приложенным фильтрам.
+    translation: Create a web-based workspace and train users to find tenders using the configured filters.
+    status: approved
+  transformation_cases.items[id=tender-workspace].result:
+    source_hash: 7a5c6c7d6b98ec198a6c52e625f3cd2ec4c8ba60200ec6ff14ad697d3b1adad0
+    source: Увеличилось число анализируемых тендеров и поданных заявок. Ускорен процесс расчёта на основании распознанной номенклатуры.
+    translation: The number of tenders analyzed and bids submitted increased. Estimation based on recognized product line items became faster.
+    status: approved
+  career_path.organizations.title:
+    source_hash: 9588f72f399d7324d38efeb3c3cfecfda3ee6d4d318cd0a094033fbcac7988f0
+    source: Организации
+    translation: Organizations
+    status: approved
+  career_path.organizations.items[id=holding].name:
+    source_hash: ef05b0f2d6f7ec87159c7f421f506f65dda4485f05ee1074f8d1b999ccc58a8c
+    source: ГК Производственный холдинг
+    translation: Manufacturing Holding Group
+    status: approved
+  career_path.organizations.items[id=holding].role:
+    source_hash: 8f6762ed20c4fd2bebf86162101d6ed200c11aa40cb4c3c2c24b9ccfd88351b7
+    source: ИТ-директор
+    translation: IT Director
+    status: approved
+  career_path.organizations.items[id=holding].details:
+    source_hash: 8d79acc6599d9b92de4d87cfad0238a0742f97c6cd83d12ece14c596cf719425
+    source: Автоматизация многопрофильного холдинга (производство, склад, логистика).
+    translation: Automation of a diversified holding company spanning manufacturing, warehousing, and logistics.
+    status: approved
+  career_path.organizations.items[id=sber].name:
+    source_hash: 1c737c6ba00d7aca4ca078b720a4d9c72dc3fea1a3f46eee7e4c1289c155a69b
+    source: Сбер
+    translation: Sber
+    status: approved
+  career_path.organizations.items[id=sber].role:
+    source_hash: 8b484d5aeac69282ba7c611ec3798e941f51f7a4a4c9a8fc06d5fb863af75a11
+    source: Руководитель направления
+    translation: Division Lead
+    status: approved
+  career_path.organizations.items[id=sber].details:
+    source_hash: c72a73ec8c5fb5e94a8386a419af15da5194b36109984f487a279bb927032a11
+    source: Разработка внутренней системы учёта для 3000 пользователей.
+    translation: Development of an internal accounting system for 3,000 users.
+    status: approved
+  career_path.organizations.items[id=kp].name:
+    source_hash: 77062ca039507be649ab4ec1c5cc8fc3c08b31ce4c548af400fbfb978e6320ce
+    source: Комсомольская правда
+    translation: Komsomolskaya Pravda
+    status: approved
+  career_path.organizations.items[id=kp].role:
+    source_hash: 3872f7414c8635b756f9ae334b12e7ce81a22117cf6115142098cc015fbae0d8
+    source: Программист / руководитель проектов
+    translation: Developer / Project Manager
+    status: approved
+  career_path.organizations.items[id=kp].details:
+    source_hash: e9c54ff24e224001d77243a7bf5d52f8faa751242a64a9720c354555f3fc3fdb
+    source: Разработка и поддержка высоконагруженного новостного портала kp.ru.
+    translation: Development and support of the high-traffic kp.ru news portal.
+    status: approved
+  career_path.organizations.items[id=pfc].name:
+    source_hash: 7da4119890ac0549fac127e35b0ed371edb85ef4c6b9729db6dd7d6c1508edc5
+    source: ПрофФинансКонсалтинг
+    translation: ProfFinanceConsulting
+    status: approved
+  career_path.organizations.items[id=pfc].role:
+    source_hash: ab7d30eb19cec72ba3a769e02d1f2ae6723d3d398ef0ff2273e54f81df4d6927
+    source: Руководитель проектов
+    translation: Project Manager
+    status: approved
+  career_path.organizations.items[id=pfc].details:
+    source_hash: f018a90fc434d3d5d9820de8e01b7105668ca250167c25a1c0b9316d5f223c5c
+    source: Руководство коллективом инженеров и консультантов. Ведение проектов на платформе 1С, 1С-Битрикс, создание и продвижение веб-сайтов.
+    translation: Led a team of engineers and consultants. Delivered projects on 1C and 1C-Bitrix platforms, including website development and promotion.
+    status: approved
+  career_path.organizations.items[id=pharmacies].name:
+    source_hash: 9cb834645aa09baf07df20cb74828be3038d28d19c6641d11afe088d8a41d75e
+    source: Столичные Аптеки
+    translation: Stolichnye Apteki
+    status: approved
+  career_path.organizations.items[id=pharmacies].role:
+    source_hash: db2ccaed535f7a28872ce90eac6ed99dac50f1204104e217aea167183408793e
+    source: Программист / аналитик
+    translation: Developer / Analyst
+    status: approved
+  career_path.organizations.items[id=pharmacies].details:
+    source_hash: 88f64814d589c6789793ebf7b6955603d8da0d82edd913fa0d1acadc9a11ba5d
+    source: Постановка учёта в крупном фармацевтическом холдинге. Складские комплексы, сеть аптек (250 филиалов).
+    translation: Implemented accounting processes for a large pharmaceutical holding company, including warehouse facilities and a 250-branch pharmacy network.
     status: approved

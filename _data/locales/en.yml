@@ -29,10 +29,8 @@ sidebar:
   languages:
   - id: russian
     idiom: Russian
-    level: Native
   - id: english
     idiom: English
-    level: Intermediate
   interests:
   - id: tennis
     item: Tennis
@@ -46,7 +44,7 @@ value_proposition:
   title: Professional Profile
   lead: 'I have more than 20 years of experience in business automation, including over 10 years leading IT projects. I progressed from software developer to IT director and have worked with companies in engineering, manufacturing, construction, finance, media, and consulting.
 
-    '
+'
   summary: |
     I currently lead the digital transformation of a manufacturing holding company: developing and implementing its IT strategy, planning and controlling the IT budget, and managing several projects with internal teams, vendors, and consultants.
 
@@ -115,6 +113,7 @@ results:
     - Automated meeting minutes and sales call analysis
     - Created a new sales channel with an AI sales bot
     - Built a corporate knowledge base with a chatbot
+    - Automated incoming email processing
 transformation_cases:
   title: Delivered Projects
   items:
@@ -130,12 +129,12 @@ transformation_cases:
     role: Document the process, develop the technical specification, select and manage contractors, introduce the alpha version into live deal estimation, and train users.
     solution: Create a dedicated deal estimation workspace that makes maximum use of accumulated customer and supplier data.
     result: The resulting estimation engine automatically prices up to 80% of the line items in a customer request and provides a convenient interface for calculating every line in the deal.
-  - id: crm-ai
-    title: CRM and Intelligent Automation
-    challenge: Reduce manual work with customer requests, meetings, and documents.
-    role: Identify practical use cases, design processes, and implement supporting tools.
-    solution: Bitrix24 workflows, Telegram bots, lead qualification, meeting transcription, and contract review.
-    result: Information is processed faster and employees follow consistent operating rules.
+  - id: tender-workspace
+    title: Tender Specialist Workspace
+    challenge: Expand the tender pipeline and automate the extraction of product line items from attached documentation.
+    role: Document the process, develop the technical specification, select and manage contractors, implement the solution, and train users.
+    solution: Create a web-based workspace and train users to find tenders using the configured filters.
+    result: The number of tenders analyzed and bids submitted increased. Estimation based on recognized product line items became faster.
 management_scope:
   title: Management Scope
   intro: I connect strategy, business processes, delivery teams, and technical implementation.
@@ -174,6 +173,29 @@ career_path:
     title: Developer and Solution Architect
     focus: Hands-on technical foundation
     details: Design and development of business systems, integrations, and user interfaces.
+  organizations:
+    title: Organizations
+    items:
+    - id: holding
+      name: Manufacturing Holding Group
+      role: IT Director
+      details: Automation of a diversified holding company spanning manufacturing, warehousing, and logistics.
+    - id: sber
+      name: Sber
+      role: Division Lead
+      details: Development of an internal accounting system for 3,000 users.
+    - id: kp
+      name: Komsomolskaya Pravda
+      role: Developer / Project Manager
+      details: Development and support of the high-traffic kp.ru news portal.
+    - id: pfc
+      name: ProfFinanceConsulting
+      role: Project Manager
+      details: Led a team of engineers and consultants. Delivered projects on 1C and 1C-Bitrix platforms, including website development and promotion.
+    - id: pharmacies
+      name: Stolichnye Apteki
+      role: Developer / Analyst
+      details: Implemented accounting processes for a large pharmaceutical holding company, including warehouse facilities and a 250-branch pharmacy network.
   industries: Engineering · Manufacturing · Construction · Finance · Media · Consulting
 competencies:
   title: Competencies

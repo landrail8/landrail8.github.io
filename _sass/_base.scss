@@ -510,6 +510,46 @@ p {
     font-weight: 500;
 }
 
+.career-organizations {
+    margin-top: 28px;
+}
+
+.career-organizations-title {
+    margin: 0 0 14px;
+    color: $text-color;
+    font-size: 17px;
+}
+
+.career-organization-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+        margin-bottom: 14px;
+        padding-left: 14px;
+        border-left: 3px solid lighten($theme-color, 25%);
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    strong {
+        color: $text-color;
+    }
+
+    p {
+        margin: 4px 0 0;
+    }
+}
+
+.career-organization-role {
+    display: block;
+    color: $text-grey;
+    font-weight: 500;
+}
+
 .industry-line {
     margin-top: 22px;
     padding: 12px 14px;

@@ -19,6 +19,20 @@
     </article>
     {% endfor %}
   </div>
+  {% if section.organizations %}
+  <div class="career-organizations">
+    <h3 class="career-organizations-title">{{ section.organizations.title }}</h3>
+    <ul class="career-organization-list">
+      {% for organization in section.organizations.items %}
+      <li>
+        <strong>{{ organization.name }}</strong>
+        <span class="career-organization-role">{{ organization.role }}</span>
+        <p>{{ organization.details }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
   <div class="industry-line">{{ section.industries }}</div>
 </section>
 {% endif %}
