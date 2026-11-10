@@ -700,9 +700,9 @@ entries:
     translation: Sber
     status: approved
   career_path.organizations.items[id=sber].role:
-    source_hash: 8b484d5aeac69282ba7c611ec3798e941f51f7a4a4c9a8fc06d5fb863af75a11
-    source: Руководитель направления
-    translation: Division Lead
+    source_hash: a58c9635eb98972422dbece949d1c97f9bb5acaa18bcbed4334592613dd628d8
+    source: Главный инженер по разработке
+    translation: Chief Development Engineer
     status: approved
   career_path.organizations.items[id=sber].details:
     source_hash: c72a73ec8c5fb5e94a8386a419af15da5194b36109984f487a279bb927032a11
